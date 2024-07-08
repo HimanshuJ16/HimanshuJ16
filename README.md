@@ -3,6 +3,8 @@
 - 🌱 I’m currently learning Java
 - 💞️ I’m looking to collaborate on projects in web development
 - 📫 Reach me at LinkedIn
+
+- ![GitHub Stats](https://github-readme-streak-stats.herokuapp.com/?user=HimanshuJ16&theme=dark&hide_border=true)
 <!--
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
