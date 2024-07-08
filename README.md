@@ -15,7 +15,8 @@
 
 - 📫 How to reach me **himanshujangir16@gmail.com**
 <hr>
-<h3 align="center">Connect With Me</h3>
+<h3 align="center">👉 Connect With Me 👈</h3>
+
 <p align="center">
 <a href="https://twitter.com/himjangir16" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="himjangir16" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/himanshujangir16" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="himanshujangir16" height="30" width="40" /></a>
