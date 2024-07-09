@@ -37,7 +37,8 @@
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=HimanshuJ16&theme=dark&hide_border=true" alt="HimanshuJ16's GitHub Stats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HimanshuJ16&theme=dark&show_icons=true&hide_border=true&layout=compact" alt="HimanshuJ16's GitHub Stats" height="195" />
 </div>
-
+<br>
+<hr>
 <p align="center">
 <img src="https://i.imgur.com/x1KbuCq.gif" width="500">
 
