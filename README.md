@@ -38,5 +38,15 @@
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HimanshuJ16&theme=dark&show_icons=true&hide_border=true&layout=compact" alt="HimanshuJ16's GitHub Stats" height="195" />
 </div>
 
+<p align="center">
+<img src="https://i.imgur.com/x1KbuCq.gif" width="500">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/github-contribution-grid-snake.svg" />
+</picture>
+
+
 
 
