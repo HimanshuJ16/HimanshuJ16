@@ -9,7 +9,7 @@
 
 - 👯 I’m looking to collaborate on **Web-development projects**
 
-- 👨‍💻 All of my projects are available at [https://himanshuj16.github.io/portfolio](https://himanshujangir.com)
+- 👨‍💻 All of my projects are available at [https://himanshujangir.com](https://www.himanshujangir.com)
 
 - 💬 Ask me about **Node.js, React, Firebase... or anything [here](mailto:himanshujangir16@gmail.com)**
 
