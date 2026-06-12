@@ -173,7 +173,7 @@ STRATEGY : LRS + TWV + VWAP Filter
               │  Node.js  ◈  Python (FastAPI)       │
               │  Express.js  ◈  REST APIs           │
               │  WebSockets  ◈  JWT Auth            │
-   └─────────────────────────────────────┘
+  └─────────────────────────────────────┘
   ▼
 ┌──────────────────┐          ▼         ┌──────────────────┐
 │   DATABASE HUB   │  ◄──── CORE ────►  │  CLOUD INFRA     │
