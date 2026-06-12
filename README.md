@@ -100,11 +100,10 @@ SPECIALIZATIONS:
 
 ## `> DEPLOYED_SYSTEMS.log`
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
 ### ⬡ &nbsp;PHEDTANKER
+
 ```
 STATUS    : LIVE ████████████ 100%
 SCALE     : 100,000+ Active Users
@@ -112,57 +111,57 @@ VEHICLES  : 500+ Tracked Simultaneously
 PERF      : Lighthouse Score → 99/100
 LATENCY   : Zero-lag real-time updates
 ```
+
 **Stack:** `Next.js` `TypeScript` `PostgreSQL` `Socket.io` `React Native`
 
 **Hardest Problem:** Race condition in Socket.io room management causing ghost sessions — fixed with server-side socket ID validation.
 
-</td>
-<td width="50%" valign="top">
+---
 
 ### ⬡ &nbsp;THE VAULTT STORE
+
 ```
 STATUS    : LIVE ████████████ 100%
 METRIC    : +30% Average Order Value
 PAYMENTS  : +25% Transaction Success Rate
 RETENTION : +15% Repeat Purchases
 ```
+
 **Stack:** `Next.js` `PostgreSQL` `TailwindCSS` `Razorpay`
 
 **Hardest Problem:** Concurrent checkout race condition — two simultaneous orders could double-charge. Fixed with Razorpay idempotency keys + DB unique constraint.
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+---
 
 ### ⬡ &nbsp;HEATCODES AGENCY
+
 ```
 STATUS    : ACTIVE ████████████ 100%
 CLIENTS   : 7+ (India + UK)
 MODEL     : Product Partner — not a vendor
 SCOPE     : Concept → Architecture → Launch
 ```
+
 **Stack:** Full custom per-client — Next.js, Python, AWS/GCP
 
 **Approach:** Sit with operators, map actual workflows, identify friction, build and maintain the fix. Long-term partner, not one-time vendor.
 
-</td>
-<td width="50%" valign="top">
+---
 
 ### ⬡ &nbsp;ALGO TRADING BOT
+
 ```
 STATUS    : IN PROGRESS ████████░░ 85%
 VERSION   : v5.10
 MARKET    : Nifty 50 Options
 STRATEGY  : LRS + TWV + VWAP Filter
 ```
+
 **Stack:** `Python` `FastAPI` `PostgreSQL` `NeonDB` `Fyers API`
 
 **Current Work:** Model E partial exit/runner strategy, Breeze API historical data pipeline, backtesting accuracy alignment.
 
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
