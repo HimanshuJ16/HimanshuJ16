@@ -58,9 +58,9 @@
 ┌──────────────────────────────────────────────────────────────────┐
 │  > NAVIGATE THE SYSTEM                                           │
 │                                                                  │
-│  [01] MISSION_LOGS      [02] DEPLOYED_SYSTEMS                   │
-│  [03] SKILL_MATRIX      [04] ACTIVITY_CORE                      │
-│  [05] TIMELINE          [06] EASTER_EGGS                        │
+│  [01] MISSION_LOGS      [02] DEPLOYED_SYSTEMS                    │
+│  [03] SKILL_MATRIX      [04] ACTIVITY_CORE                       │
+│  [05] TIMELINE          [06] EASTER_EGGS                         │
 │  [07] CONNECT                                                    │
 └──────────────────────────────────────────────────────────────────┘
 ```
@@ -92,9 +92,9 @@
 ║  BASE       : Delhi, India  [UTC +5:30]  ║
 ║  EDU        : B.Tech CSE  2023–2027      ║
 ║  PORTFOLIO  : himanshujangir.com         ║
-║  GITHUB     : HimanshuJ16               ║
+║  GITHUB     : HimanshuJ16                ║
 ║                                          ║
-║  PHILOSOPHY : Ship fast. Break nothing. ║
+║  PHILOSOPHY : Ship fast. Break nothing.  ║
 ║               Own the outcome.           ║
 ║               Not just the code.         ║
 ║                                          ║
@@ -105,24 +105,24 @@
 <td width="50%" valign="top">
 
 ```yaml
-╔══════════════════════════════════════════╗
-║         ACTIVE_OBJECTIVES v2.6           ║
-╠══════════════════════════════════════════╣
-║                                          ║
-║  [✓] Scale HeatCodes to 7+ global clients║
-║  [✓] Maintain 100k+ production systems   ║
-║  [✓] Ship PhedTanker — 500+ vehicles     ║
-║  [✓] UK client expansion achieved        ║
-║                                          ║
-║  [◉] Land global remote contract role    ║
-║  [◉] Expand AI-integrated products       ║
-║  [◉] Ship Algo Bot v6 — live trading     ║
-║  [◉] Open source 1 major tool            ║
-║                                          ║
-║  [ ] Build in public · document journey  ║
-║  [ ] 10k GitHub stars combined           ║
-║                                          ║
-╚══════════════════════════════════════════╝
+╔═══════════════════════════════════════════╗
+║         ACTIVE_OBJECTIVES v2.6            ║
+╠═══════════════════════════════════════════╣
+║                                           ║
+║  [✓] Scale HeatCodes to 7+ global clients ║
+║  [✓] Maintain 100k+ production systems    ║
+║  [✓] Ship PhedTanker — 500+ vehicles      ║
+║  [✓] UK client expansion achieved         ║
+║                                           ║
+║  [◉] Land global remote contract role     ║
+║  [◉] Expand AI-integrated products        ║
+║  [◉] Ship Algo Bot v6 — live trading      ║
+║  [◉] Open source 1 major tool             ║
+║                                           ║
+║  [ ] Build in public · document journey   ║
+║  [ ] 10k GitHub stars combined            ║
+║                                           ║
+╚═══════════════════════════════════════════╝
 ```
 
 </td>
@@ -157,9 +157,9 @@
  │                                                                 │
  │  SCALE          100,000+ Active Users                           │
  │  FLEET          500+ Vehicles Tracked Simultaneously            │
- │  LIGHTHOUSE     99 / 100  ──────────────────────── ██████████  │
+ │  LIGHTHOUSE     99 / 100  ──────────────────────── ██████████   │
  │  LATENCY        Zero-lag real-time updates                      │
- │  UPTIME         99.97% ─────────────────────────── ████████░░  │
+ │  UPTIME         99.97% ─────────────────────────── ████████░░   │
  │                                                                 │
  ├─────────────────────────────────────────────────────────────────┤
  │  STACK: Next.js · TypeScript · PostgreSQL · Socket.io           │
@@ -226,7 +226,7 @@
  ├─────────────────────────────────────────────────────────────────┤
  │                                                                 │
  │  MARKET         Nifty 50 Options                                │
- │  STRATEGY       LRS + TWV + VWAP Filter Composite              │
+ │  STRATEGY       LRS + TWV + VWAP Filter Composite               │
  │  PROGRESS       85% ── Model E partial exit/runner pending      │
  │  DATA PIPE      Breeze API historical pipeline                  │
  │  BACKTEST       Alignment pass in progress                      │
@@ -291,29 +291,29 @@
 <!-- SKILL ORBITAL MAP — ASCII architecture -->
 
 ```
-                         ┌───────────────────────────────┐
-                         │     ◈  FRONTEND GALAXY  ◈      │
-                         │                               │
-                         │  Next.js  ──  React  ──  TS   │
-                         │  TailwindCSS  ──  React Native │
-                         │  Socket.io  ──  Expo  ──  PWA  │
-                         └───────────────┬───────────────┘
+                         ┌──────────────────────────────┐
+                         │    ◈  FRONTEND GALAXY  ◈    │
+                         │                              │
+                         │  Next.js - React - TS        │
+                         │  TailwindCSS - React Native  │
+                         │  Socket.io - Expo - PWA      │
+                         └───────────────┬──────────────┘
                                          │
               ┌──────────────────────────┼──────────────────────────┐
               │                          │                          │
-   ┌──────────▼───────────┐   ┌──────────▼──────────┐   ┌──────────▼──────────┐
-   │   ◈  BACKEND CORE  ◈  │   │   ◈  DATABASE HUB ◈  │   │  ◈  CLOUD INFRA  ◈  │
-   │                       │   │                      │   │                     │
-   │  Node.js  ──  Python  │   │  PostgreSQL           │   │  AWS Lambda · S3    │
-   │  FastAPI  ──  Express │   │  MongoDB  ──  MySQL   │   │  Google Cloud       │
-   │  REST APIs  ──  JWT   │   │  Prisma ORM           │   │  Docker  ──  CI/CD  │
-   │  WebSockets  ──  Auth │   │  Supabase  ──  NeonDB │   │  Vercel  ──  Nginx  │
-   └───────────────────────┘   └──────────────────────┘   └─────────────────────┘
+   ┌──────────▼──────────┐   ┌──────────▼──────────┐   ┌──────────▼──────────┐
+   │  ◈ BACKEND CORE ◈  │   │  ◈ DATABASE HUB ◈  │   │  ◈ CLOUD INFRA ◈   │
+   │                     │   │                     │   │                     │
+   │  Node.js - Python   │   │  PostgreSQL         │   │  AWS Lambda · S3    │
+   │  FastAPI - Express  │   │  MongoDB - MySQL    │   │  Google Cloud       │
+   │  REST APIs - JWT    │   │  Prisma ORM         │   │  Docker  -  CI/CD   │
+   │  WebSockets - Auth  │   │  Supabase - NeonDB  │   │  Vercel  -  Nginx   │
+   └─────────────────────┘   └─────────────────────┘   └─────────────────────┘
               │                          │                          │
               └──────────────────────────┼──────────────────────────┘
                                          │
                          ┌───────────────▼───────────────┐
-                         │       ◈  AI ENGINE  ◈         │
+                         │       ◈  AI ENGINE  ◈        │
                          │                               │
                          │  LLM APIs  ──  OpenAI         │
                          │  Anthropic  ──  LangChain     │
@@ -490,17 +490,13 @@ Redis           ███████░░░░░  ●○○
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=HimanshuJ16&theme=tokyonight&hide_border=true&stroke=7c3aed&ring=818cf8&fire=c4b5fd&currStreakLabel=c4b5fd&background=000008&sideLabels=818cf8&dates=6366f1" height="180" />
 
-&nbsp;&nbsp;
-
-<img src="https://github-readme-stats.vercel.app/api?username=HimanshuJ16&theme=tokyonight&show_icons=true&hide_border=true&title_color=818cf8&icon_color=c4b5fd&text_color=e2e8f0&bg_color=000008&ring_color=7c3aed" height="180" />
-
 </div>
 
 <br/>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HimanshuJ16&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&title_color=818cf8&text_color=e2e8f0&bg_color=000008&langs_count=8" height="160" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HimanshuJ16&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&title_color=818cf8&text_color=e2e8f0&bg_color=000008&langs_count=8" height="260" />
 
 </div>
 
@@ -542,29 +538,29 @@ Redis           ███████░░░░░  ●○○
 $ cat ~/philosophy/engineering.txt
 
   ┌──────────────────────────────────────────────────────────────┐
-  │  The best code is the code that runs at 3am without         │
+  │  The best code is the code that runs at 3am without          │
   │  waking you up.                                              │
   │                                                              │
-  │  Ship fast. Break nothing. Own the outcome.                 │
+  │  Ship fast. Break nothing. Own the outcome.                  │
   │  Not just the code.                                          │
   │                                                              │
-  │  The best engineers are just really stubborn debuggers.     │
+  │  The best engineers are just really stubborn debuggers.      │
   │                                                              │
-  │  A ghost socket at scale is a nightmare.                    │
-  │  A ghost socket fixed at scale is a war story.              │
+  │  A ghost socket at scale is a nightmare.                     │
+  │  A ghost socket fixed at scale is a war story.               │
   │                                                              │
-  │  Never be a vendor. Always be a partner.                    │
+  │  Never be a vendor. Always be a partner.                     │
   └──────────────────────────────────────────────────────────────┘
 
 $ cat ~/philosophy/founder.txt
 
   ┌──────────────────────────────────────────────────────────────┐
-  │  You don't need permission to build.                        │
-  │  You need an operator with a problem and enough stubbornness│
+  │  You don't need permission to build.                         │
+  │  You need an operator with a problem and enough stubbornness │
   │  to map it properly before writing line 1.                   │
   │                                                              │
-  │  Product intuition is a skill. Most engineers outsource it. │
-  │  I'm learning to own it.                                    │
+  │  Product intuition is a skill. Most engineers outsource it.  │
+  │  I'm learning to own it.                                     │
   └──────────────────────────────────────────────────────────────┘
 
 $ ping himanshujangir.com
@@ -589,7 +585,7 @@ $ ping himanshujangir.com
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
-║               DEVELOPER XP ACHIEVEMENT BOARD                    ║
+║               DEVELOPER XP ACHIEVEMENT BOARD                     ║
 ╠══════════════════════════════════════════════════════════════════╣
 ║                                                                  ║
 ║  🏆 PRODUCTION SURVIVOR     Shipped real code at 100k scale      ║
@@ -706,9 +702,9 @@ $ cat /etc/motd
 
 ```
  ╔══════════════════════════════════════════════════════════════╗
- ║   "The best code is the code that runs at 3am              ║
- ║    without waking you up."                                  ║
- ║                                           — Himanshu Jangir ║
+ ║   "The best code is the code that runs at 3am                ║
+ ║    without waking you up."                                   ║
+ ║                                           — Himanshu Jangir  ║
  ╚══════════════════════════════════════════════════════════════╝
 ```
 
