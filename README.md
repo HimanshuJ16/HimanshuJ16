@@ -174,7 +174,7 @@ STRATEGY : LRS + TWV + VWAP Filter
               │  Express.js  ◈  REST APIs           │
               │  WebSockets  ◈  JWT Auth            │
               └─────────────────────────────────────┘
-     ▼
+    ▼
 ┌──────────────────┐          ▼         ┌──────────────────┐
 │   DATABASE HUB   │  ◄──── CORE ────►  │  CLOUD INFRA     │
 │                  │                    │                  │
