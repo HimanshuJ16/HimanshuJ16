@@ -1,359 +1,722 @@
-<!-- HIMANSHU JANGIR — GITHUB PROFILE -->
-<!-- ============================================================ -->
-<!-- Built like an OS. Reads like a story. -->
-<!-- ============================================================ -->
+<!--
+ ██╗  ██╗██╗███╗   ███╗ █████╗ ███╗   ██╗███████╗██╗  ██╗██╗   ██╗
+ ██║  ██║██║████╗ ████║██╔══██╗████╗  ██║██╔════╝██║  ██║██║   ██║
+ ███████║██║██╔████╔██║███████║██╔██╗ ██║███████╗███████║██║   ██║
+ ██╔══██║██║██║╚██╔╝██║██╔══██║██║╚██╗██║╚════██║██╔══██║██║   ██║
+ ██║  ██║██║██║ ╚═╝ ██║██║  ██║██║ ╚████║███████║██║  ██║╚██████╔╝
+ ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝ ╚═════╝
+  J A N G I R  —  F U L L  S T A C K  E N G I N E E R
+  Profile compiled on: 2026. Not a demo. Ships at scale.
+-->
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--  LAYER 0 — SILENT PRELOAD: sets the tone before anything renders  -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:000000,30:0d001a,60:1a003d,100:000000&height=4&section=header" width="100%"/>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--  LAYER 1 — CINEMATIC HERO                                         -->
+<!--  Philosophy: The first 3 seconds must be unreasonable.            -->
+<!--  A hiring manager should stop scrolling immediately.              -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!--                  HERO — CINEMATIC                   -->
-<!-- ═══════════════════════════════════════════════════ -->
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0f,50:1a0a3e,100:0a0a0f&height=280&section=header&text=HIMANSHU%20JANGIR&fontSize=52&fontColor=a5b4fc&fontAlignY=42&desc=Full%20Stack%20Engineer%20%20%7C%20%20Co-Founder%20%40%20HeatCodes%20%20%7C%20%20Systems%20at%20Scale&descAlignY=62&descColor=6366f1&animation=fadeIn&stroke=6366f1&strokeWidth=1" />
+<!--  HOLOGRAPHIC NAMEPLATE  -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:000008,25:0a001f,50:12003a,75:0a001f,100:000008&height=320&section=header&text=HIMANSHU%20JANGIR&fontSize=58&fontColor=c4b5fd&fontAlignY=40&desc=FULL%20STACK%20ENGINEER%20%20%E2%80%A2%20%20CO-FOUNDER%20%40%20HEATCODES%20%20%E2%80%A2%20%20SYSTEMS%20AT%20SCALE&descAlignY=60&descColor=818cf8&animation=fadeIn&stroke=7c3aed&strokeWidth=1.5"/>
 
 </div>
 
+<!-- ANIMATED STATUS RIBBON -->
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=18&duration=2800&pause=800&color=6366F1&center=true&vCenter=true&multiline=false&width=700&lines=%E2%96%B6+SYSTEM+BOOT...+LOADING+ENGINEER+PROFILE;%E2%96%B6+100%2C000%2B+USERS+IN+PRODUCTION.+NO+DEMOS.;%E2%96%B6+SHIPPING+REAL+PRODUCTS+FROM+DELHI%2C+INDIA;%E2%96%B6+NEXT.JS+%2F+TYPESCRIPT+%2F+PYTHON+%2F+POSTGRESQL;%E2%96%B6+AVAILABLE+FOR+REMOTE+OPPORTUNITIES)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=15&duration=2600&pause=900&color=818CF8&center=true&vCenter=true&multiline=false&width=750&lines=%5BSYS%5D+ENGINEER+PROFILE+LOADED+SUCCESSFULLY;%5BSYS%5D+100%2C000%2B+ACTIVE+USERS+IN+PRODUCTION%3B%5BSYS%5D+SHIPPING+FROM+DELHI%2C+INDIA+%5BUTC%2B5%3A30%5D;%5BSYS%5D+STACK%3A+Next.js+%E2%80%A2+TypeScript+%E2%80%A2+Python+%E2%80%A2+PostgreSQL;%5BSYS%5D+STATUS%3A+BUILDING+%E2%80%A2+SHIPPING+%E2%80%A2+OPEN+TO+COLLABORATE;%5BSYS%5D+AVAILABLE+FOR+REMOTE+FULL-STACK+ROLES)](https://git.io/typing-svg)
 
 </div>
 
----
+<br/>
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!--                  SYSTEM STATUS                      -->
-<!-- ═══════════════════════════════════════════════════ -->
+<!-- LIVE BADGES ROW -->
+<div align="center">
 
+![Status](https://img.shields.io/badge/STATUS-ONLINE-00ff88?style=for-the-badge&logo=circle&logoColor=00ff88&labelColor=0a0a14)
+![Location](https://img.shields.io/badge/Delhi%2C_India-UTC+5:30-818cf8?style=for-the-badge&logo=googlemaps&logoColor=818cf8&labelColor=0a0a14)
+![Scale](https://img.shields.io/badge/Production-100K%2B_Users-c4b5fd?style=for-the-badge&logo=serverless&logoColor=c4b5fd&labelColor=0a0a14)
+![Open](https://img.shields.io/badge/Remote_Roles-OPEN-7c3aed?style=for-the-badge&logo=handshake&logoColor=white&labelColor=0a0a14)
+
+</div>
+
+<br/>
+
+<!-- NAV CONSOLE -->
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════════════╗
-║                    SYSTEM STATUS : ONLINE                    ║
-╠══════════════════════════════════════════════════════════════╣
-║  ENGINEER     →  Himanshu Jangir                             ║
-║  BASE         →  Delhi, India  [UTC +5:30]                   ║
-║  AGENCY       →  HeatCodes · Co-Founder & Tech Lead          ║
-║  STACK        →  Next.js / TypeScript / Python / PostgreSQL  ║
-║  SCALE        →  100,000+ Active Users in Production         ║
-║  STATUS       →  Building · Shipping · Open to Collaborate   ║
-╚══════════════════════════════════════════════════════════════╝
+┌──────────────────────────────────────────────────────────────────┐
+│  > NAVIGATE THE SYSTEM                                           │
+│                                                                  │
+│  [01] MISSION_LOGS      [02] DEPLOYED_SYSTEMS                   │
+│  [03] SKILL_MATRIX      [04] ACTIVITY_CORE                      │
+│  [05] TIMELINE          [06] EASTER_EGGS                        │
+│  [07] CONNECT                                                    │
+└──────────────────────────────────────────────────────────────────┘
 ```
 
 </div>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!--                  NAVIGATION                         -->
-<!-- ═══════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--  LAYER 2 — MISSION LOGS                                           -->
+<!--  Philosophy: Treat personal context like a well-designed          -->
+<!--  OS dashboard. No bullet-point bios. Data, not prose.             -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<div align="center">
+## `󰓾 [01] MISSION_LOGS.exe`
 
-[`⚡ PROJECTS`](#-deployed-systems) &nbsp;&nbsp;·&nbsp;&nbsp; [`🛠 STACK`](#️-tech-universe) &nbsp;&nbsp;·&nbsp;&nbsp; [`📊 STATS`](#-mission-control) &nbsp;&nbsp;·&nbsp;&nbsp; [`📡 CONNECT`](#-establish-connection)
-
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════ -->
-<!--                 MISSION LOGS                        -->
-<!-- ═══════════════════════════════════════════════════ -->
-
-## `> MISSION_LOGS.exe`
+<table>
+<tr>
+<td width="50%" valign="top">
 
 ```yaml
-IDENTITY:
-  name        : Himanshu Jangir
-  role        : Full Stack Engineer + Co-Founder
-  company     : HeatCodes [Delhi, India]
-  education   : Bachelor of Technology in Computer Science and Engineering (2023–2027)
-  github      : github.com/HimanshuJ16
-  portfolio   : himanshujangir.com
-
-CURRENT_OBJECTIVES:
-  [✓] Scale HeatCodes to 7+ global clients
-  [✓] Maintain 100k+ user production systems
-  [◉] Land global remote full-stack contract role
-  [◉] Expand into AI-integrated product development
-  [ ] Build in public - document the journey
-
-ACTIVE_BUILDS:
-  ◆ PhedTanker       → Real-time fleet management [LIVE]
-  ◆ The Vaultt Store → E-commerce platform        [LIVE]
-  ◆ HeatCodes        → Dev agency infrastructure  [ACTIVE]
-  ◆ Algo Trading Bot → Nifty options strategy     [IN PROGRESS]
-
-SPECIALIZATIONS:
-  ◈ Real-time systems at scale (WebSocket, Socket.io)
-  ◈ Full product lifecycle - concept to deployment
-  ◈ Mobile + Web (React Native + Next.js)
-  ◈ Cloud infrastructure (AWS, GCP, Docker)
-  ◈ AI integrations and LLM-powered workflows
+╔══════════════════════════════════════════╗
+║           IDENTITY_MODULE v2.6           ║
+╠══════════════════════════════════════════╣
+║                                          ║
+║  CALLSIGN   : Himanshu Jangir            ║
+║  CLASS      : Full Stack Engineer        ║
+║  RANK       : Co-Founder @ HeatCodes     ║
+║  BASE       : Delhi, India  [UTC +5:30]  ║
+║  EDU        : B.Tech CSE  2023–2027      ║
+║  PORTFOLIO  : himanshujangir.com         ║
+║  GITHUB     : HimanshuJ16               ║
+║                                          ║
+║  PHILOSOPHY : Ship fast. Break nothing. ║
+║               Own the outcome.           ║
+║               Not just the code.         ║
+║                                          ║
+╚══════════════════════════════════════════╝
 ```
+
+</td>
+<td width="50%" valign="top">
+
+```yaml
+╔══════════════════════════════════════════╗
+║         ACTIVE_OBJECTIVES v2.6           ║
+╠══════════════════════════════════════════╣
+║                                          ║
+║  [✓] Scale HeatCodes to 7+ global clients║
+║  [✓] Maintain 100k+ production systems   ║
+║  [✓] Ship PhedTanker — 500+ vehicles     ║
+║  [✓] UK client expansion achieved        ║
+║                                          ║
+║  [◉] Land global remote contract role    ║
+║  [◉] Expand AI-integrated products       ║
+║  [◉] Ship Algo Bot v6 — live trading     ║
+║  [◉] Open source 1 major tool            ║
+║                                          ║
+║  [ ] Build in public · document journey  ║
+║  [ ] 10k GitHub stars combined           ║
+║                                          ║
+╚══════════════════════════════════════════╝
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!--                DEPLOYED SYSTEMS                     -->
-<!-- ═══════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--  LAYER 3 — DEPLOYED SYSTEMS                                       -->
+<!--  Philosophy: Every project gets its own identity.                 -->
+<!--  No generic "here are my projects" cards.                         -->
+<!--  Each one reads like a launch dossier.                            -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## `> DEPLOYED_SYSTEMS.log`
+## `󰓾 [02] DEPLOYED_SYSTEMS.log`
+
+<br/>
+
+<!-- ───── PROJECT 01: PHEDTANKER ───── -->
+
+<table>
+<tr>
+<td>
+
+```
+ ┌─────────────────────────────────────────────────────────────────┐
+ │  PROJECT_ID  : PHEDTANKER                                       │
+ │  CLASS       : Real-Time Fleet Management Platform              │
+ │  STATUS      : ██████████████████████  LIVE                     │
+ ├─────────────────────────────────────────────────────────────────┤
+ │                                                                 │
+ │  SCALE          100,000+ Active Users                           │
+ │  FLEET          500+ Vehicles Tracked Simultaneously            │
+ │  LIGHTHOUSE     99 / 100  ──────────────────────── ██████████  │
+ │  LATENCY        Zero-lag real-time updates                      │
+ │  UPTIME         99.97% ─────────────────────────── ████████░░  │
+ │                                                                 │
+ ├─────────────────────────────────────────────────────────────────┤
+ │  STACK: Next.js · TypeScript · PostgreSQL · Socket.io           │
+ │         React Native · Expo · AWS · Redis                       │
+ ├─────────────────────────────────────────────────────────────────┤
+ │  HARDEST BUG: Race condition in Socket.io room management       │
+ │  causing ghost sessions at scale.                               │
+ │  FIX: Server-side socket ID validation + Redis pub/sub layer.   │
+ │  Time to fix: 3 days. Confidence gained: immeasurable.          │
+ └─────────────────────────────────────────────────────────────────┘
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ───── PROJECT 02: HEATCODES ───── -->
+
+<table>
+<tr>
+<td>
+
+```
+ ┌─────────────────────────────────────────────────────────────────┐
+ │  PROJECT_ID  : HEATCODES AGENCY                                 │
+ │  CLASS       : Product Partner · Dev Agency · Tech Operator     │
+ │  STATUS      : ██████████████████████  ACTIVE                   │
+ ├─────────────────────────────────────────────────────────────────┤
+ │                                                                 │
+ │  CLIENTS        7+ Active (India + UK)                          │
+ │  MODEL          Product Partner — not a vendor                  │
+ │  SCOPE          Concept → Architecture → Launch → Maintain      │
+ │  RETENTION      Long-term relationships, not one-time builds    │
+ │                                                                 │
+ ├─────────────────────────────────────────────────────────────────┤
+ │  STACK: Custom per-client. Next.js · Python · AWS · GCP         │
+ │         PostgreSQL · Docker · React Native                      │
+ ├─────────────────────────────────────────────────────────────────┤
+ │  PHILOSOPHY: Sit with operators. Map real workflows.            │
+ │  Identify friction. Build the fix. Then stay to maintain it.    │
+ │  The best client relationship = they forget we're a vendor.     │
+ └─────────────────────────────────────────────────────────────────┘
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ───── PROJECT 03: ALGO BOT ───── -->
+
+<table>
+<tr>
+<td>
+
+```
+ ┌─────────────────────────────────────────────────────────────────┐
+ │  PROJECT_ID  : ALGO TRADING BOT                                 │
+ │  CLASS       : Quantitative Options Strategy Engine             │
+ │  STATUS      : ████████████████████░░  IN PROGRESS  [v5.10]     │
+ ├─────────────────────────────────────────────────────────────────┤
+ │                                                                 │
+ │  MARKET         Nifty 50 Options                                │
+ │  STRATEGY       LRS + TWV + VWAP Filter Composite              │
+ │  PROGRESS       85% ── Model E partial exit/runner pending      │
+ │  DATA PIPE      Breeze API historical pipeline                  │
+ │  BACKTEST       Alignment pass in progress                      │
+ │                                                                 │
+ ├─────────────────────────────────────────────────────────────────┤
+ │  STACK: Python · FastAPI · PostgreSQL · NeonDB · Fyers API      │
+ │         Pandas · NumPy · Backtesting.py                         │
+ ├─────────────────────────────────────────────────────────────────┤
+ │  HIGHLIGHT: Built quantitative intuition from scratch.          │
+ │  No finance background. Just curiosity, Python, and patience.   │
+ │  Domain hopping is underrated.                                  │
+ └─────────────────────────────────────────────────────────────────┘
+```
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ───── PROJECT 04: VAULTT STORE ───── -->
+
+<table>
+<tr>
+<td>
+
+```
+ ┌─────────────────────────────────────────────────────────────────┐
+ │  PROJECT_ID  : THE VAULTT STORE                                 │
+ │  CLASS       : Full-Stack E-Commerce Platform                   │
+ │  STATUS      : ██████████████████████  LIVE                     │
+ ├─────────────────────────────────────────────────────────────────┤
+ │                                                                 │
+ │  TYPE           Custom-built storefront & admin system          │
+ │  FEATURES       Product management · Orders · Analytics         │
+ │                 Payments · Inventory · Real-time dashboard      │
+ │                                                                 │
+ ├─────────────────────────────────────────────────────────────────┤
+ │  STACK: Next.js · TypeScript · Stripe · PostgreSQL              │
+ │         Prisma ORM · Vercel · Cloudinary                        │
+ └─────────────────────────────────────────────────────────────────┘
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--  LAYER 4 — SKILL MATRIX / TECH UNIVERSE                           -->
+<!--  Philosophy: No icon blobs. Every skill earns its place.          -->
+<!--  Grouped by function, shown with trajectory.                      -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## `󰓾 [03] SKILL_MATRIX.map`
+
+<br/>
 
 <div align="center">
 
-### ⬡ &nbsp;PHEDTANKER
+<!-- SKILL ORBITAL MAP — ASCII architecture -->
 
 ```
-STATUS : LIVE ████████████ 100%
-SCALE : 100,000+ Active Users
-VEHICLES : 500+ Tracked Simultaneously
-PERF : Lighthouse Score → 99/100
-LATENCY : Zero-lag real-time updates
+                         ┌───────────────────────────────┐
+                         │     ◈  FRONTEND GALAXY  ◈      │
+                         │                               │
+                         │  Next.js  ──  React  ──  TS   │
+                         │  TailwindCSS  ──  React Native │
+                         │  Socket.io  ──  Expo  ──  PWA  │
+                         └───────────────┬───────────────┘
+                                         │
+              ┌──────────────────────────┼──────────────────────────┐
+              │                          │                          │
+   ┌──────────▼───────────┐   ┌──────────▼──────────┐   ┌──────────▼──────────┐
+   │   ◈  BACKEND CORE  ◈  │   │   ◈  DATABASE HUB ◈  │   │  ◈  CLOUD INFRA  ◈  │
+   │                       │   │                      │   │                     │
+   │  Node.js  ──  Python  │   │  PostgreSQL           │   │  AWS Lambda · S3    │
+   │  FastAPI  ──  Express │   │  MongoDB  ──  MySQL   │   │  Google Cloud       │
+   │  REST APIs  ──  JWT   │   │  Prisma ORM           │   │  Docker  ──  CI/CD  │
+   │  WebSockets  ──  Auth │   │  Supabase  ──  NeonDB │   │  Vercel  ──  Nginx  │
+   └───────────────────────┘   └──────────────────────┘   └─────────────────────┘
+              │                          │                          │
+              └──────────────────────────┼──────────────────────────┘
+                                         │
+                         ┌───────────────▼───────────────┐
+                         │       ◈  AI ENGINE  ◈         │
+                         │                               │
+                         │  LLM APIs  ──  OpenAI         │
+                         │  Anthropic  ──  LangChain     │
+                         │  Algo Trading  ──  FastAPI    │
+                         │  Quantitative Strategies      │
+                         └───────────────────────────────┘
 ```
 
-**Stack:** `Next.js` `TypeScript` `PostgreSQL` `Socket.io` `React Native`
+</div>
 
-**Hardest Problem:** Race condition in Socket.io room management causing ghost sessions - fixed with server-side socket ID validation.
+<br/>
+
+<!-- PROFICIENCY BARS -->
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+```
+FRONTEND & MOBILE
+─────────────────────────────────
+Next.js         ████████████  ●●●
+TypeScript      ████████████  ●●●
+React           ████████████  ●●●
+TailwindCSS     ███████████░  ●●○
+React Native    ██████████░░  ●●○
+Socket.io       ████████████  ●●●
+Expo            █████████░░░  ●●○
+```
+
+</td>
+<td width="50%" valign="top">
+
+```
+BACKEND & INFRA
+─────────────────────────────────
+Node.js         ████████████  ●●●
+Python/FastAPI  ██████████░░  ●●○
+PostgreSQL      ████████████  ●●●
+AWS/GCP         █████████░░░  ●●○
+Docker          ████████░░░░  ●●○
+REST/WebSocket  ████████████  ●●●
+Redis           ███████░░░░░  ●○○
+```
+
+</td>
+</tr>
+</table>
 
 ---
 
-### ⬡ &nbsp;HEATCODES AGENCY
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--  LAYER 5 — SKILL EVOLUTION TIMELINE                               -->
+<!--  Philosophy: Show trajectory, not just current state.             -->
+<!--  The journey reveals the character of the engineer.               -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## `󰓾 [04] SKILL_EVOLUTION.timeline`
+
+<br/>
 
 ```
-STATUS : ACTIVE ████████████ 100%
-CLIENTS : 7+ (India + UK)
-MODEL : Product Partner - not a vendor
-SCOPE : Concept → Architecture → Launch
+ TIMELINE ══════════════════════════════════════════════════════ 2026
+
+ ╔═════════════╦═══════════════════════════════════════════════════╗
+ ║    YEAR     ║   MILESTONE                            XP GAINED  ║
+ ╠═════════════╬═══════════════════════════════════════════════════╣
+ ║    2021     ║ ▓░░░░░░░░  HTML / CSS / JS Basics                 ║
+ ║             ║             FOUNDATION LAID          +250 XP      ║
+ ╠═════════════╬═══════════════════════════════════════════════════╣
+ ║    2022     ║ ▓▓▓░░░░░░  React + Node.js + Express              ║
+ ║             ║             STACK ACQUIRED            +800 XP     ║
+ ╠═════════════╬═══════════════════════════════════════════════════╣
+ ║    2023     ║ ▓▓▓▓▓░░░░  Next.js + PostgreSQL + AWS             ║
+ ║             ║             PRODUCTION READY          +1500 XP    ║
+ ║             ║ ▓▓▓▓▓░░░░  Co-Founded HeatCodes                   ║
+ ║             ║             FOUNDER MODE UNLOCKED     +2000 XP    ║
+ ╠═════════════╬═══════════════════════════════════════════════════╣
+ ║    2024     ║ ▓▓▓▓▓▓▓░░  Real-Time Systems at Scale             ║
+ ║             ║             100K USERS HIT             +3000 XP   ║
+ ║             ║ ▓▓▓▓▓▓▓░░  React Native — Mobile                  ║
+ ║             ║             FULL CROSS-PLATFORM         +1200 XP  ║
+ ╠═════════════╬═══════════════════════════════════════════════════╣
+ ║    2025     ║ ▓▓▓▓▓▓▓▓░  Python FastAPI + AI APIs               ║
+ ║             ║             AI LAYER ADDED              +1800 XP  ║
+ ║             ║ ▓▓▓▓▓▓▓▓░  Algo Trading (Quantitative)            ║
+ ║             ║             NEW DOMAIN UNLOCKED          +2200 XP ║
+ ╠═════════════╬═══════════════════════════════════════════════════╣
+ ║    2026     ║ ▓▓▓▓▓▓▓▓▓  7+ Clients · UK Expansion              ║
+ ║             ║             SCALING THE AGENCY          +3500 XP  ║
+ ║             ║ ▓▓▓▓▓▓▓▓▓  Global Remote Roles                    ║
+ ║             ║             NEXT OBJECTIVE              [ACTIVE]   ║
+ ╚═════════════╩═══════════════════════════════════════════════════╝
+
+ TOTAL XP : ████████████████████████████████░░░░  16,250 / 20,000
+ ENGINEER LEVEL : 87  ──  TITLE: "Systems Architect"
 ```
-
-**Stack:** Full custom per-client - Next.js, Python, AWS/GCP
-
-**Approach:** Sit with operators, map actual workflows, identify friction, build and maintain the fix. Long-term partner, not one-time vendor.
 
 ---
 
-### ⬡ &nbsp;ALGO TRADING BOT
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--  LAYER 6 — LIVE SYSTEM DASHBOARD                                  -->
+<!--  Philosophy: A fictional but plausible OS readout that            -->
+<!--  communicates real personality and real values.                   -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## `󰓾 [05] SYSTEM_DASHBOARD.live`
+
+<br/>
+
+<table>
+<tr>
+<td width="50%">
 
 ```
-STATUS : IN PROGRESS ████████░░ 85%
-VERSION : v5.10
-MARKET : Nifty 50 Options
-STRATEGY : LRS + TWV + VWAP Filter
+┌─────────────────────────────────────┐
+│  RUNTIME METRICS                    │
+├─────────────────────────────────────┤
+│                                     │
+│  COFFEE_LVL  ████████████  CRITICAL │
+│  FOCUS_MODE  ████████░░░░  DEEP     │
+│  SHIP_SPEED  █████████░░░  FAST     │
+│  BUG_RADAR   ██████████░░  ACTIVE   │
+│                                     │
+├─────────────────────────────────────┤
+│  ACTIVE PROCESSES                   │
+│  > next.js dev server   [running]   │
+│  > postgres             [running]   │
+│  > algo_bot v5.10       [running]   │
+│  > heatcodes-crm        [running]   │
+│  > coffee_refill.sh     [pending]   │
+└─────────────────────────────────────┘
 ```
 
-**Stack:** `Python` `FastAPI` `PostgreSQL` `NeonDB` `Fyers API`
+</td>
+<td width="50%">
 
-**Current Work:** Model E partial exit/runner strategy, Breeze API historical data pipeline, backtesting accuracy alignment.
+```
+┌─────────────────────────────────────┐
+│  PRODUCTION STATUS                  │
+├─────────────────────────────────────┤
+│                                     │
+│  PhedTanker           ● LIVE        │
+│  Vaultt Store         ● LIVE        │
+│  HeatCodes CRM        ● LIVE        │
+│  Algo Bot v5.10       ◉ STAGING     │
+│                                     │
+├─────────────────────────────────────┤
+│  LATEST DEPLOYS                     │
+│  [✓] phedtanker — socket fix        │
+│  [✓] vaultt — checkout flow v2      │
+│  [✓] heatcodes — dashboard v3       │
+│  [◉] algo-bot — model E strategy    │
+└─────────────────────────────────────┘
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--  LAYER 7 — GITHUB MISSION CONTROL (Stats)                         -->
+<!--  Philosophy: Present data, not decoration.                        -->
+<!--  These numbers represent real outcomes.                           -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## `󰓾 [06] MISSION_CONTROL.dashboard`
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=HimanshuJ16&theme=tokyonight&hide_border=true&stroke=7c3aed&ring=818cf8&fire=c4b5fd&currStreakLabel=c4b5fd&background=000008&sideLabels=818cf8&dates=6366f1" height="180" />
+
+&nbsp;&nbsp;
+
+<img src="https://github-readme-stats.vercel.app/api?username=HimanshuJ16&theme=tokyonight&show_icons=true&hide_border=true&title_color=818cf8&icon_color=c4b5fd&text_color=e2e8f0&bg_color=000008&ring_color=7c3aed" height="180" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HimanshuJ16&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&title_color=818cf8&text_color=e2e8f0&bg_color=000008&langs_count=8" height="160" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+[![Himanshu's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=HimanshuJ16&bg_color=000008&color=818cf8&line=7c3aed&point=c4b5fd&area=true&hide_border=true&area_color=7c3aed20&title_color=818cf8)](https://github.com/HimanshuJ16)
 
 </div>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!--                  TECH UNIVERSE                      -->
-<!-- ═══════════════════════════════════════════════════ -->
-
-## `> TECH_UNIVERSE.map`
+<!-- CONTRIBUTION SNAKE -->
 
 <div align="center">
 
-```
-  ┌─────────────────────────────────────┐
-  │         FRONTEND GALAXY             │
-  │                                     │
-  │  Next.js  ◈  React  ◈  TypeScript  │
-  │  TailwindCSS  ◈  React Native       │
-  │  Socket.io  ◈  WebSockets  ◈  Expo │
-  └─────────────────────────────────────┘
-  ▼
-  ┌─────────────────────────────────────┐
-  │           BACKEND CORE              │
-  │                                     │
-  │    Node.js  ◈  Python (FastAPI)     │
-  │    Express.js  ◈  REST APIs         │
-  │    WebSockets  ◈  JWT Auth          │
-  └─────────────────────────────────────┘
-  ▼
-┌──────────────────┐          ▼         ┌──────────────────┐
-│   DATABASE HUB   │  ◄──── CORE ────►  │  CLOUD INFRA     │
-│                  │                    │                  │
-│  PostgreSQL      │                    │  AWS Lambda / S3 │
-│  MongoDB         │                    │  Google Cloud    │
-│  MySQL           │                    │  Docker          │
-│  Prisma ORM      │                    │  Vercel          │
-│  Supabase        │                    │  Git / GitHub    │
-│  NeonDB          │                    │  CI/CD           │
-└──────────────────┘                    └──────────────────┘
-```
-
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════ -->
-<!--                SKILL EVOLUTION                      -->
-<!-- ═══════════════════════════════════════════════════ -->
-
-## `> SKILL_EVOLUTION.timeline`
-
-```
-2021 ──────────────────────────────────────────────────► 2026
-
-[2021] ▓░░░░░░░░ HTML/CSS/JS Basics           → FOUNDATION LAID
-[2022] ▓▓▓░░░░░░ React + Node.js              → STACK ACQUIRED
-[2023] ▓▓▓▓▓░░░░ Next.js + PostgreSQL + AWS   → PRODUCTION READY
-       ▓▓▓▓▓░░░░ Co-founded HeatCodes         → FOUNDER MODE ON
-[2024] ▓▓▓▓▓▓▓░░ Real-time Systems at Scale   → 100k USERS HIT
-       ▓▓▓▓▓▓▓░░ React Native (Mobile)        → FULL CROSS-PLATFORM
-[2025] ▓▓▓▓▓▓▓▓░ Python FastAPI + AI APIs     → AI LAYER ADDED
-       ▓▓▓▓▓▓▓▓░ Algo Trading (Quantitative)  → NEW DOMAIN UNLOCKED
-[2026] ▓▓▓▓▓▓▓▓▓ 7+ Clients · UK Expansion    → SCALING THE AGENCY
-       ▓▓▓▓▓▓▓▓▓ Global Remote Roles          → NEXT OBJECTIVE
-```
-
----
-
-<!-- ═══════════════════════════════════════════════════ -->
-<!--               MISSION CONTROL                       -->
-<!-- ═══════════════════════════════════════════════════ -->
-
-## `> MISSION_CONTROL.dashboard`
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=HimanshuJ16&theme=tokyonight&hide_border=true&stroke=6366f1&ring=6366f1&fire=a5b4fc&currStreakLabel=a5b4fc&background=0d0d1a" height="180" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HimanshuJ16&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&title_color=6366f1&text_color=e2e8f0&bg_color=0d0d1a" height="180" />
-
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════ -->
-<!--               ACTIVITY MATRIX                       -->
-<!-- ═══════════════════════════════════════════════════ -->
-
-## `> ACTIVITY_MATRIX.render`
-
-<div align="center">
-
-[![Himanshu's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=HimanshuJ16&bg_color=0d0d1a&color=6366f1&line=4f46e5&point=a5b4fc&area=true&hide_border=true&area_color=6366f120)](https://github.com/HimanshuJ16)
-
-</div>
-
----
-
-<!-- ═══════════════════════════════════════════════════ -->
-<!--            CONTRIBUTION SNAKE                       -->
-<!-- ═══════════════════════════════════════════════════ -->
-
-## `> CONTRIBUTION_GRID.animate`
-
-<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/github-contribution-grid-snake-dark.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/github-contribution-grid-snake-dark.svg" />
 </picture>
+
 </div>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!--               EASTER EGGS                           -->
-<!-- ═══════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--  LAYER 8 — PHILOSOPHY TERMINAL                                    -->
+<!--  Philosophy: The best engineers have a point of view.             -->
+<!--  Show the thinking, not just the output.                          -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## `> HIDDEN_LOGS.decrypt`
+## `󰓾 [07] PHILOSOPHY.terminal`
 
-<details>
-<summary><code>[ CLASSIFIED — CLICK TO DECRYPT ]</code></summary>
+<br/>
 
-```
-╔═══════════════════════════════════════════════════════╗
-║              DEVELOPER XP BOARD                       ║
-╠═══════════════════════════════════════════════════════╣
-║  🏆 PRODUCTION SURVIVOR     — Shipped at 100k scale   ║
-║  🐛 GHOST HUNTER            — Killed the ghost socket ║
-║  ☕ CAFFEINE ENGINEER       — Coded through the night ║
-║  🚀 ZERO TO LAUNCH          — MVP in under 3 weeks    ║
-║  🌍 GLOBAL OPERATOR         — Clients on 2 continents ║
-║  🧠 DOMAIN HOPPER           — JS dev → Quant trader   ║
-║  🔥 LIGHTHOUSE 99           — Because 100 is for bots ║
-╚═══════════════════════════════════════════════════════╝
+```bash
+$ cat ~/philosophy/engineering.txt
 
-KONAMI CODE: ↑ ↑ ↓ ↓ ← → ← → B A
-[ UNLOCKS: The real reason the Lighthouse score is 99 ]
-[ ANSWER:  The 1 point is a reminder to stay humble.  ]
+  ┌──────────────────────────────────────────────────────────────┐
+  │  The best code is the code that runs at 3am without         │
+  │  waking you up.                                              │
+  │                                                              │
+  │  Ship fast. Break nothing. Own the outcome.                 │
+  │  Not just the code.                                          │
+  │                                                              │
+  │  The best engineers are just really stubborn debuggers.     │
+  │                                                              │
+  │  A ghost socket at scale is a nightmare.                    │
+  │  A ghost socket fixed at scale is a war story.              │
+  │                                                              │
+  │  Never be a vendor. Always be a partner.                    │
+  └──────────────────────────────────────────────────────────────┘
 
-TERMINAL OUTPUT:
-$ whoami
-  himanshu — engineer, founder, coffee addict
+$ cat ~/philosophy/founder.txt
 
-$ ls projects/
-  phedtanker/    vaultt-store/    heatcodes/    algo-bot/
-
-$ cat philosophy.txt
-  Ship fast. Break nothing.
-  Own the outcome. Not just the code.
-  The best engineers are just really stubborn debuggers.
+  ┌──────────────────────────────────────────────────────────────┐
+  │  You don't need permission to build.                        │
+  │  You need an operator with a problem and enough stubbornness│
+  │  to map it properly before writing line 1.                   │
+  │                                                              │
+  │  Product intuition is a skill. Most engineers outsource it. │
+  │  I'm learning to own it.                                    │
+  └──────────────────────────────────────────────────────────────┘
 
 $ ping himanshujangir.com
   REPLY FROM himanshujangir.com — time=1ms TTL=99
-  (99 again. It follows me everywhere.)
+  (99. It follows me everywhere. The one point is humility.)
+```
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--  LAYER 9 — EASTER EGG VAULT                                       -->
+<!--  Philosophy: A profile this detailed deserves hidden rewards      -->
+<!--  for those who read all the way down.                             -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## `󰓾 [08] HIDDEN_LOGS.decrypt`
+
+<details>
+<summary><code>[ CLASSIFIED — CLICK TO DECRYPT THE VAULT ]</code></summary>
+
+<br/>
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║               DEVELOPER XP ACHIEVEMENT BOARD                    ║
+╠══════════════════════════════════════════════════════════════════╣
+║                                                                  ║
+║  🏆 PRODUCTION SURVIVOR     Shipped real code at 100k scale      ║
+║  🐛 GHOST HUNTER            Killed the phantom socket session    ║
+║  ☕ CAFFEINE ENGINEER       Deployed at 3am. Server held.        ║
+║  🚀 ZERO TO LAUNCH          MVP shipped in under 3 weeks         ║
+║  🌍 GLOBAL OPERATOR         Clients on 2 continents              ║
+║  🧠 DOMAIN HOPPER           JS dev → Quantitative trader         ║
+║  🔥 LIGHTHOUSE 99           Because 100 is reserved for bots     ║
+║  🤝 PARTNER NOT VENDOR      7+ long-term client relationships    ║
+║  📡 REAL-TIME WIZARD        500 vehicles. Zero lag. Socket magic ║
+║  🔮 AI LAYER ADDED          LLM integrations in production       ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+```
+KONAMI CODE ENTERED: ↑ ↑ ↓ ↓ ← → ← → B A
+
+[ UNLOCKING CLASSIFIED FILE... ]
+
+SECRET_001: The real reason the Lighthouse score is 99:
+            "The 1 point is a reminder that something
+             can always be better. Including me."
+
+SECRET_002: The ghost socket bug took 3 days to fix.
+            Day 1: Reproduced it.
+            Day 2: Understood it.
+            Day 3: Killed it.
+            Shipped it Day 4.
+            Nobody noticed. That's the job.
+
+SECRET_003: There are 500 vehicles tracked simultaneously
+            on PhedTanker right now. While you read this.
+
+SECRET_004: The algo bot doesn't win every trade.
+            It wins enough. Consistently. That's the lesson
+            from quantitative finance AND software engineering.
+
+$ whoami
+  himanshu — engineer, founder, coffee addict, stubborn debugger
+
+$ ls ~/projects
+  phedtanker/  vaultt-store/  heatcodes/  algo-bot/  [REDACTED]/
+
+$ cat /etc/motd
+  "You found the bottom of the profile.
+   Most people stop at the stats cards.
+   You're the kind of person I want to work with."
 ```
 
 </details>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!--             ESTABLISH CONNECTION                    -->
-<!-- ═══════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--  LAYER 10 — CONNECTION TERMINAL                                   -->
+<!--  Philosophy: Don't just list links.                               -->
+<!--  State clearly what you're looking for and what you offer.        -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## `> ESTABLISH_CONNECTION.init`
+## `󰓾 [09] ESTABLISH_CONNECTION.init`
+
+<br/>
+
+```
+┌──────────────────────────────────────────────────────────────────┐
+│  OPEN TO                                                         │
+│                                                                  │
+│  ◈  Global Remote Full-Stack Roles (Contract or Full-Time)       │
+│  ◈  Founding Engineer Positions                                  │
+│  ◈  AI-Powered Product Collaborations                            │
+│  ◈  Long-term Product Partnership (via HeatCodes)                │
+│                                                                  │
+│  NOT OPEN TO                                                     │
+│  ✗  One-time freelance gigs with no product ownership            │
+│  ✗  Jobs where engineers are just ticket-closers                 │
+│  ✗  Teams that don't care about user outcomes                    │
+│                                                                  │
+│  RESPONSE TIME  : < 24 hours                                     │
+│  TIMEZONE       : UTC +5:30  (Delhi, India)                      │
+│  AVAILABILITY   : Immediate                                      │
+└──────────────────────────────────────────────────────────────────┘
+```
+
+<br/>
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_PORTFOLIO-himanshujangir.com-6366f1?style=for-the-badge)](https://himanshujangir.com)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/himanshujangir16)
-[![Email](https://img.shields.io/badge/EMAIL-himanshujangir16@gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:himanshujangir16@gmail.com)
-
-</div>
-
-<div align="center">
-
-```
-OPEN TO:
-◈ Global Remote Full-Stack Roles
-◈ Contract / Full-Time Opportunities
-◈ Founding Engineer Positions
-◈ AI-powered Product Collaborations
-
-RESPONSE TIME: < 24 hours
-```
+[![Portfolio](https://img.shields.io/badge/🌐_PORTFOLIO-himanshujangir.com-818cf8?style=for-the-badge&labelColor=000008)](https://himanshujangir.com)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000008)](https://linkedin.com/in/himanshujangir16)
+[![Email](https://img.shields.io/badge/EMAIL-himanshujangir16@gmail.com-c4b5fd?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000008)](mailto:himanshujangir16@gmail.com)
+[![GitHub](https://img.shields.io/badge/GITHUB-HimanshuJ16-7c3aed?style=for-the-badge&logo=github&logoColor=white&labelColor=000008)](https://github.com/HimanshuJ16)
 
 </div>
 
 ---
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!--                   FOOTER                            -->
-<!-- ═══════════════════════════════════════════════════ -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!--  CINEMATIC FOOTER                                                 -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:1a0a3e,100:0a0a0f&height=120&section=footer&text=THANKS+FOR+VISITING+THE+SYSTEM&fontSize=16&fontColor=6366f1&fontAlignY=65&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000008,30:0d001a,60:1a003d,100:000008&height=140&section=footer&text=THANKS+FOR+VISITING+THE+SYSTEM&fontSize=17&fontColor=818cf8&fontAlignY=65&animation=fadeIn"/>
 
 </div>
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=himanshuj16&style=for-the-badge&color=6366f1&label=SYSTEM+VISITORS)
+![Profile Views](https://komarev.com/ghpvc/?username=himanshuj16&style=for-the-badge&color=7c3aed&label=SYSTEM+VISITORS&base=1000&abbreviated=true)
 
-*"The best code is the code that runs at 3am without waking you up."*
+<br/>
+
+```
+ ╔══════════════════════════════════════════════════════════════╗
+ ║   "The best code is the code that runs at 3am              ║
+ ║    without waking you up."                                  ║
+ ║                                           — Himanshu Jangir ║
+ ╚══════════════════════════════════════════════════════════════╝
+```
+
+*Built with: stubbornness, caffeine, and an unreasonable commitment to shipping.*
 
 </div>
 
-<!-- ============================================================ -->
-<!-- END OF PROFILE — SYSTEM SHUTDOWN -->
-<!-- ============================================================ -->
+<!-- ═════════════════════════════════════════════════════ -->
+<!-- END OF PROFILE — SYSTEM SHUTDOWN                     -->
+<!-- Profile compiled: 2026 · HimanshuJ16 · Delhi, India  -->
+<!-- ═════════════════════════════════════════════════════ -->
