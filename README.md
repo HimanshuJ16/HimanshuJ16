@@ -291,14 +291,14 @@
 <!-- SKILL ORBITAL MAP — ASCII architecture -->
 
 ```
-                    ┌──────────────────────────────┐
-                    │    ◈  FRONTEND GALAXY  ◈    │
-                    │                              │
-                    │  Next.js - React - TS        │
-                    │  TailwindCSS - React Native  │
-                    │  Socket.io - Expo - PWA      │
-                    └───────────────┬──────────────┘
-                            │
+                 ┌──────────────────────────────┐
+                 │    ◈  FRONTEND GALAXY  ◈    │
+                 │                              │
+                 │  Next.js - React - TS        │
+                 │  TailwindCSS - React Native  │
+                 │  Socket.io - Expo - PWA      │
+                 └───────────────┬──────────────┘
+                       │
               ┌──────────────────────────┼──────────────────────────┐
               │                          │                          │
    ┌──────────▼──────────┐   ┌──────────▼──────────┐   ┌──────────▼──────────┐
@@ -311,15 +311,15 @@
    └─────────────────────┘   └─────────────────────┘   └─────────────────────┘
               │                          │                          │
               └──────────────────────────┼──────────────────────────┘
-                            │
-                 ┌───────────────▼───────────────┐
-                 │       ◈  AI ENGINE  ◈        │
-                 │                               │
-                 │  LLM APIs  ──  OpenAI         │
-                 │  Anthropic  ──  LangChain     │
-                 │  Algo Trading  ──  FastAPI    │
-                 │  Quantitative Strategies      │
-                 └───────────────────────────────┘
+                        │
+                ┌───────────────▼───────────────┐
+                │       ◈  AI ENGINE  ◈        │
+                │                               │
+                │  LLM APIs  ──  OpenAI         │
+                │  Anthropic  ──  LangChain     │
+                │  Algo Trading  ──  FastAPI    │
+                │  Quantitative Strategies      │
+                └───────────────────────────────┘
 ```
 
 </div>
