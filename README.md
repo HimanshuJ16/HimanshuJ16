@@ -33,7 +33,7 @@
 ╠══════════════════════════════════════════════════════════════╣
 ║  ENGINEER     →  Himanshu Jangir                             ║
 ║  BASE         →  Delhi, India  [UTC +5:30]                   ║
-║  AGENCY       →  HeatCodes — Co-Founder & Tech Lead          ║
+║  AGENCY       →  HeatCodes · Co-Founder & Tech Lead          ║
 ║  STACK        →  Next.js / TypeScript / Python / PostgreSQL  ║
 ║  SCALE        →  100,000+ Active Users in Production         ║
 ║  STATUS       →  Building · Shipping · Open to Collaborate   ║
@@ -114,7 +114,7 @@ LATENCY : Zero-lag real-time updates
 
 **Stack:** `Next.js` `TypeScript` `PostgreSQL` `Socket.io` `React Native`
 
-**Hardest Problem:** Race condition in Socket.io room management causing ghost sessions — fixed with server-side socket ID validation.
+**Hardest Problem:** Race condition in Socket.io room management causing ghost sessions - fixed with server-side socket ID validation.
 
 ---
 
@@ -123,11 +123,11 @@ LATENCY : Zero-lag real-time updates
 ```
 STATUS : ACTIVE ████████████ 100%
 CLIENTS : 7+ (India + UK)
-MODEL : Product Partner — not a vendor
+MODEL : Product Partner - not a vendor
 SCOPE : Concept → Architecture → Launch
 ```
 
-**Stack:** Full custom per-client — Next.js, Python, AWS/GCP
+**Stack:** Full custom per-client - Next.js, Python, AWS/GCP
 
 **Approach:** Sit with operators, map actual workflows, identify friction, build and maintain the fix. Long-term partner, not one-time vendor.
 
@@ -170,9 +170,9 @@ STRATEGY : LRS + TWV + VWAP Filter
   ┌─────────────────────────────────────┐
   │           BACKEND CORE              │
   │                                     │
-  │  Node.js  ◈  Python (FastAPI)       │
-  │  Express.js  ◈  REST APIs           │
-  │  WebSockets  ◈  JWT Auth            │
+  │    Node.js  ◈  Python (FastAPI)     │
+  │    Express.js  ◈  REST APIs         │
+  │    WebSockets  ◈  JWT Auth          │
   └─────────────────────────────────────┘
   ▼
 ┌──────────────────┐          ▼         ┌──────────────────┐
