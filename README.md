@@ -650,7 +650,7 @@ $ cat /etc/motd
 ## `󰓾 [09] ESTABLISH_CONNECTION.init`
 
 <br/>
-
+<div align="center">
 ```
 ┌──────────────────────────────────────────────────────────────────┐
 │  OPEN TO                                                         │
@@ -670,7 +670,7 @@ $ cat /etc/motd
 │  AVAILABILITY   : Immediate                                      │
 └──────────────────────────────────────────────────────────────────┘
 ```
-
+</div>
 <br/>
 
 <div align="center">
