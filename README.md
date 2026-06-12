@@ -174,17 +174,17 @@ STRATEGY : LRS + TWV + VWAP Filter
               │  Express.js  ◈  REST APIs           │
               │  WebSockets  ◈  JWT Auth            │
               └─────────────────────────────────────┘
-▼
-┌──────────────────┐          ▼         ┌──────────────────┐
-│   DATABASE HUB   │  ◄──── CORE ────►  │  CLOUD INFRA     │
-│                  │                    │                  │
-│  PostgreSQL      │                    │  AWS Lambda / S3 │
-│  MongoDB         │                    │  Google Cloud    │
-│  MySQL           │                    │  Docker          │
-│  Prisma ORM      │                    │  Vercel          │
-│  Supabase        │                    │  Git / GitHub    │
-│  NeonDB          │                    │  CI/CD           │
-└──────────────────┘                    └──────────────────┘
+  ▼
+              ┌──────────────────┐          ▼         ┌──────────────────┐
+              │   DATABASE HUB   │  ◄──── CORE ────►  │  CLOUD INFRA     │
+              │                  │                    │                  │
+              │  PostgreSQL      │                    │  AWS Lambda / S3 │
+              │  MongoDB         │                    │  Google Cloud    │
+              │  MySQL           │                    │  Docker          │
+              │  Prisma ORM      │                    │  Vercel          │
+              │  Supabase        │                    │  Git / GitHub    │
+              │  NeonDB          │                    │  CI/CD           │
+              └──────────────────┘                    └──────────────────┘
 ```
 
 </div>
