@@ -166,14 +166,14 @@ STRATEGY : LRS + TWV + VWAP Filter
               │  TailwindCSS  ◈  React Native       │
               │  Socket.io  ◈  WebSockets  ◈  Expo │
               └─────────────────────────────────────┘
-                              ▼
+  ▼
               ┌─────────────────────────────────────┐
               │           BACKEND CORE              │
               │                                     │
               │  Node.js  ◈  Python (FastAPI)       │
               │  Express.js  ◈  REST APIs           │
               │  WebSockets  ◈  JWT Auth            │
-              └─────────────────────────────────────┘
+    └─────────────────────────────────────┘
   ▼
 ┌──────────────────┐          ▼         ┌──────────────────┐
 │   DATABASE HUB   │  ◄──── CORE ────►  │  CLOUD INFRA     │
