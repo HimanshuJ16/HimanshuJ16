@@ -31,12 +31,12 @@
 ╔══════════════════════════════════════════════════════════════╗
 ║                    SYSTEM STATUS : ONLINE                    ║
 ╠══════════════════════════════════════════════════════════════╣
-║  ENGINEER     →  Himanshu Jangir                            ║
-║  BASE         →  Delhi, India  [UTC +5:30]                  ║
-║  AGENCY       →  HeatCodes — Co-Founder & Tech Lead         ║
-║  STACK        →  Next.js / TypeScript / Python / PostgreSQL ║
-║  SCALE        →  100,000+ Active Users in Production        ║
-║  STATUS       →  Building · Shipping · Open to Collaborate  ║
+║  ENGINEER     →  Himanshu Jangir                             ║
+║  BASE         →  Delhi, India  [UTC +5:30]                   ║
+║  AGENCY       →  HeatCodes — Co-Founder & Tech Lead          ║
+║  STACK        →  Next.js / TypeScript / Python / PostgreSQL  ║
+║  SCALE        →  100,000+ Active Users in Production         ║
+║  STATUS       →  Building · Shipping · Open to Collaborate   ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
@@ -67,16 +67,16 @@ IDENTITY:
   name        : Himanshu Jangir
   role        : Full Stack Engineer + Co-Founder
   company     : HeatCodes [Delhi, India]
-  education   : B.Tech Computer Science — DSEU (2023–2027)
+  education   : Bachelor of Technology in Computer Science and Engineering (2023–2027)
   github      : github.com/HimanshuJ16
   portfolio   : himanshujangir.com
 
 CURRENT_OBJECTIVES:
-  [✓] Scale HeatCodes to 10+ global clients
+  [✓] Scale HeatCodes to 7+ global clients
   [✓] Maintain 100k+ user production systems
   [◉] Land global remote full-stack contract role
   [◉] Expand into AI-integrated product development
-  [ ] Build in public — document the journey
+  [ ] Build in public - document the journey
 
 ACTIVE_BUILDS:
   ◆ PhedTanker       → Real-time fleet management [LIVE]
@@ -86,7 +86,7 @@ ACTIVE_BUILDS:
 
 SPECIALIZATIONS:
   ◈ Real-time systems at scale (WebSocket, Socket.io)
-  ◈ Full product lifecycle — concept to deployment
+  ◈ Full product lifecycle - concept to deployment
   ◈ Mobile + Web (React Native + Next.js)
   ◈ Cloud infrastructure (AWS, GCP, Docker)
   ◈ AI integrations and LLM-powered workflows
@@ -105,11 +105,11 @@ SPECIALIZATIONS:
 ### ⬡ &nbsp;PHEDTANKER
 
 ```
-STATUS    : LIVE ████████████ 100%
-SCALE     : 100,000+ Active Users
-VEHICLES  : 500+ Tracked Simultaneously
-PERF      : Lighthouse Score → 99/100
-LATENCY   : Zero-lag real-time updates
+STATUS : LIVE ████████████ 100%
+SCALE : 100,000+ Active Users
+VEHICLES : 500+ Tracked Simultaneously
+PERF : Lighthouse Score → 99/100
+LATENCY : Zero-lag real-time updates
 ```
 
 **Stack:** `Next.js` `TypeScript` `PostgreSQL` `Socket.io` `React Native`
@@ -118,28 +118,13 @@ LATENCY   : Zero-lag real-time updates
 
 ---
 
-### ⬡ &nbsp;THE VAULTT STORE
-
-```
-STATUS    : LIVE ████████████ 100%
-METRIC    : +30% Average Order Value
-PAYMENTS  : +25% Transaction Success Rate
-RETENTION : +15% Repeat Purchases
-```
-
-**Stack:** `Next.js` `PostgreSQL` `TailwindCSS` `Razorpay`
-
-**Hardest Problem:** Concurrent checkout race condition — two simultaneous orders could double-charge. Fixed with Razorpay idempotency keys + DB unique constraint.
-
----
-
 ### ⬡ &nbsp;HEATCODES AGENCY
 
 ```
-STATUS    : ACTIVE ████████████ 100%
-CLIENTS   : 7+ (India + UK)
-MODEL     : Product Partner — not a vendor
-SCOPE     : Concept → Architecture → Launch
+STATUS : ACTIVE ████████████ 100%
+CLIENTS : 7+ (India + UK)
+MODEL : Product Partner — not a vendor
+SCOPE : Concept → Architecture → Launch
 ```
 
 **Stack:** Full custom per-client — Next.js, Python, AWS/GCP
@@ -151,10 +136,10 @@ SCOPE     : Concept → Architecture → Launch
 ### ⬡ &nbsp;ALGO TRADING BOT
 
 ```
-STATUS    : IN PROGRESS ████████░░ 85%
-VERSION   : v5.10
-MARKET    : Nifty 50 Options
-STRATEGY  : LRS + TWV + VWAP Filter
+STATUS : IN PROGRESS ████████░░ 85%
+VERSION : v5.10
+MARKET : Nifty 50 Options
+STRATEGY : LRS + TWV + VWAP Filter
 ```
 
 **Stack:** `Python` `FastAPI` `PostgreSQL` `NeonDB` `Fyers API`
@@ -175,31 +160,31 @@ STRATEGY  : LRS + TWV + VWAP Filter
 
 ```
               ┌─────────────────────────────────────┐
-              │         FRONTEND GALAXY              │
-              │                                      │
-              │  Next.js  ◈  React  ◈  TypeScript   │
-              │  TailwindCSS  ◈  React Native        │
-              │  Socket.io  ◈  WebSockets  ◈  Expo  │
+              │         FRONTEND GALAXY             │
+              │                                     │
+              │  Next.js  ◈  React  ◈  TypeScript  │
+              │  TailwindCSS  ◈  React Native       │
+              │  Socket.io  ◈  WebSockets  ◈  Expo │
               └─────────────────────────────────────┘
                               ▼
               ┌─────────────────────────────────────┐
-              │           BACKEND CORE               │
-              │                                      │
-              │  Node.js  ◈  Python (FastAPI)        │
-              │  Express.js  ◈  REST APIs            │
-              │  WebSockets  ◈  JWT Auth             │
+              │           BACKEND CORE              │
+              │                                     │
+              │  Node.js  ◈  Python (FastAPI)       │
+              │  Express.js  ◈  REST APIs           │
+              │  WebSockets  ◈  JWT Auth            │
               └─────────────────────────────────────┘
                               ▼
-┌──────────────────┐         ▼         ┌──────────────────┐
-│   DATABASE HUB   │ ◄──── CORE ────► │  CLOUD INFRA     │
-│                  │                   │                  │
-│  PostgreSQL      │                   │  AWS Lambda / S3 │
-│  MongoDB         │                   │  Google Cloud    │
-│  MySQL           │                   │  Docker          │
-│  Prisma ORM      │                   │  Vercel          │
-│  Supabase        │                   │  Git / GitHub    │
-│  NeonDB          │                   │  CI/CD           │
-└──────────────────┘                   └──────────────────┘
+┌──────────────────┐          ▼         ┌──────────────────┐
+│   DATABASE HUB   │  ◄──── CORE ────►  │  CLOUD INFRA     │
+│                  │                    │                  │
+│  PostgreSQL      │                    │  AWS Lambda / S3 │
+│  MongoDB         │                    │  Google Cloud    │
+│  MySQL           │                    │  Docker          │
+│  Prisma ORM      │                    │  Vercel          │
+│  Supabase        │                    │  Git / GitHub    │
+│  NeonDB          │                    │  CI/CD           │
+└──────────────────┘                    └──────────────────┘
 ```
 
 </div>
@@ -261,20 +246,8 @@ STRATEGY  : LRS + TWV + VWAP Filter
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=HimanshuJ16&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&title_color=6366f1&icon_color=a5b4fc&text_color=e2e8f0&bg_color=0d0d1a" height="180" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=HimanshuJ16&theme=tokyonight&hide_border=true&stroke=6366f1&ring=6366f1&fire=a5b4fc&currStreakLabel=a5b4fc&background=0d0d1a" height="180" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HimanshuJ16&theme=tokyonight&show_icons=true&hide_border=true&layout=compact&title_color=6366f1&text_color=e2e8f0&bg_color=0d0d1a" height="180" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=HimanshuJ16&theme=tokyonight&hide_border=true&stroke=6366f1&ring=6366f1&fire=a5b4fc&currStreakLabel=a5b4fc&background=0d0d1a" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=HimanshuJ16&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
 
 </div>
 
@@ -325,7 +298,7 @@ STRATEGY  : LRS + TWV + VWAP Filter
 ╠═══════════════════════════════════════════════════════╣
 ║  🏆 PRODUCTION SURVIVOR     — Shipped at 100k scale   ║
 ║  🐛 GHOST HUNTER            — Killed the ghost socket ║
-║  ☕ CAFFEINE ENGINEER        — Coded through the night ║
+║  ☕ CAFFEINE ENGINEER       — Coded through the night ║
 ║  🚀 ZERO TO LAUNCH          — MVP in under 3 weeks    ║
 ║  🌍 GLOBAL OPERATOR         — Clients on 2 continents ║
 ║  🧠 DOMAIN HOPPER           — JS dev → Quant trader   ║
@@ -368,7 +341,6 @@ $ ping himanshujangir.com
 [![Portfolio](https://img.shields.io/badge/🌐_PORTFOLIO-himanshujangir.com-6366f1?style=for-the-badge)](https://himanshujangir.com)
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/himanshujangir16)
 [![Email](https://img.shields.io/badge/EMAIL-himanshujangir16@gmail.com-D14836?style=for-the-badge&logo=gmail)](mailto:himanshujangir16@gmail.com)
-[![Twitter](https://img.shields.io/badge/TWITTER-@himjangir16-1DA1F2?style=for-the-badge&logo=twitter)](https://twitter.com/himjangir16)
 
 </div>
 
