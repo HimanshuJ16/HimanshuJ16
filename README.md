@@ -159,20 +159,20 @@ STRATEGY : LRS + TWV + VWAP Filter
 <div align="center">
 
 ```
-              ┌─────────────────────────────────────┐
-              │         FRONTEND GALAXY             │
-              │                                     │
-              │  Next.js  ◈  React  ◈  TypeScript  │
-              │  TailwindCSS  ◈  React Native       │
-              │  Socket.io  ◈  WebSockets  ◈  Expo │
-              └─────────────────────────────────────┘
+  ┌─────────────────────────────────────┐
+  │         FRONTEND GALAXY             │
+  │                                     │
+  │  Next.js  ◈  React  ◈  TypeScript  │
+  │  TailwindCSS  ◈  React Native       │
+  │  Socket.io  ◈  WebSockets  ◈  Expo │
+  └─────────────────────────────────────┘
   ▼
-              ┌─────────────────────────────────────┐
-              │           BACKEND CORE              │
-              │                                     │
-              │  Node.js  ◈  Python (FastAPI)       │
-              │  Express.js  ◈  REST APIs           │
-              │  WebSockets  ◈  JWT Auth            │
+  ┌─────────────────────────────────────┐
+  │           BACKEND CORE              │
+  │                                     │
+  │  Node.js  ◈  Python (FastAPI)       │
+  │  Express.js  ◈  REST APIs           │
+  │  WebSockets  ◈  JWT Auth            │
   └─────────────────────────────────────┘
   ▼
 ┌──────────────────┐          ▼         ┌──────────────────┐
