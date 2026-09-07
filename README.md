@@ -92,38 +92,17 @@
   <img alt="Blotter of my recent GitHub activity, regenerated every six hours by a GitHub Action" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/blotter-dark.svg" width="100%">
 </picture>
 
-<details>
-  <summary><b>▸ contribution tape</b> &nbsp;<sub>the snake eats a year of commits</sub></summary>
-  <br>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/github-contribution-grid-snake.svg">
-    <img alt="Contribution snake" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/github-contribution-grid-snake-dark.svg" width="100%">
-  </picture>
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/ledger-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/ledger-light.svg">
+  <img alt="Ledger: language allocation across my repositories by bytes, plus repo, star and fork totals" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/ledger-dark.svg" width="100%">
+</picture>
 
-<details>
-  <summary><b>▸ ledger</b> &nbsp;<sub>stats and language mix</sub></summary>
-  <br>
-  <table width="100%">
-    <tr>
-      <td width="50%" valign="top">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=HimanshuJ16&show_icons=true&hide_border=false&hide_title=true&hide_rank=true&bg_color=0B0E14&border_color=1E2837&text_color=E6EDF3&icon_color=39C5F2&title_color=E3B341&ring_color=3FB950">
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=HimanshuJ16&show_icons=true&hide_border=false&hide_title=true&hide_rank=true&bg_color=FFFFFF&border_color=D0D7DE&text_color=1F2328&icon_color=0969DA&title_color=9A6700&ring_color=1A7F37">
-          <img alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=HimanshuJ16&show_icons=true&hide_border=false&hide_title=true&hide_rank=true&bg_color=0B0E14&border_color=1E2837&text_color=E6EDF3&icon_color=39C5F2&title_color=E3B341&ring_color=3FB950" width="100%">
-        </picture>
-      </td>
-      <td width="50%" valign="top">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=HimanshuJ16&layout=compact&langs_count=8&hide_border=false&hide_title=true&bg_color=0B0E14&border_color=1E2837&text_color=E6EDF3&title_color=E3B341">
-          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=HimanshuJ16&layout=compact&langs_count=8&hide_border=false&hide_title=true&bg_color=FFFFFF&border_color=D0D7DE&text_color=1F2328&title_color=9A6700">
-          <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=HimanshuJ16&layout=compact&langs_count=8&hide_border=false&hide_title=true&bg_color=0B0E14&border_color=1E2837&text_color=E6EDF3&title_color=E3B341" width="100%">
-        </picture>
-      </td>
-    </tr>
-  </table>
-</details>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/snake-light.svg">
+  <img alt="Contribution graph for the last 52 weeks, with a snake eating the commits" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/snake-dark.svg" width="100%">
+</picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-execute-dark.svg">
@@ -160,4 +139,4 @@
   <img alt="Session close" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/footer-dark.svg" width="100%">
 </picture>
 
-<p align="center"><sub>Built by hand: every panel above is an SVG animated with SMIL, no JavaScript, no external fonts. Source in <a href="https://github.com/HimanshuJ16/HimanshuJ16/tree/main/scripts">scripts/</a>.</sub></p>
+<p align="center"><sub>Built by hand: every panel above is an SVG animated with SMIL, no JavaScript, no external fonts. The three live panels are regenerated from the GitHub API every six hours. Source in <a href="https://github.com/HimanshuJ16/HimanshuJ16/tree/main/scripts">scripts/</a>.</sub></p>
