@@ -43,4 +43,4 @@ The README references two kinds of images:
 - Typing and ticker widths are pinned with `textLength`, so the animation lands on character boundaries in whatever monospace font the viewer has.
 - Chromium pauses SMIL for images that are off screen and starts them when they scroll into view, so the pipeline "boots" as the visitor reaches it.
 - The `<picture>` element follows the viewer's GitHub theme, including when GitHub's theme differs from the OS theme.
-- GitHub caches images through its camo proxy for a while, so a fresh workflow run can take a few minutes to show. If you rename or add an output file, update the README URL to match.
+- GitHub caches images through its camo proxy, sometimes for hours. Live panels on `output` eventually refresh on their own. For static assets on `main`, the README carries a `?v=N` query string on every URL: bump it whenever you regenerate `assets/` so visitors see the new files immediately.

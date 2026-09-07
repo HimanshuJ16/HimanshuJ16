@@ -8,9 +8,9 @@
 -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-light.svg">
-  <img alt="Himanshu Jangir — full-stack engineer, co-founder of HeatCodes, running a Python intraday equity algo bot in production" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-light.svg?v=2">
+  <img alt="Himanshu Jangir — full-stack engineer, co-founder of HeatCodes, running a Python intraday equity algo bot in production" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-dark.svg?v=2" width="100%">
 </picture>
 
 <p align="center">
@@ -21,9 +21,9 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-positions-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-positions-light.svg">
-  <img alt="Positions — what I'm building" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-positions-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-positions-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-positions-light.svg?v=2">
+  <img alt="Positions — what I'm building" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-positions-dark.svg?v=2" width="100%">
 </picture>
 
 <table>
@@ -55,35 +55,35 @@
 </table>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-system-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-system-light.svg">
-  <img alt="System — how it's wired" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-system-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-system-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-system-light.svg?v=2">
+  <img alt="System — how it's wired" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-system-dark.svg?v=2" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-light.svg">
-  <img alt="Architecture of the intraday equity trading bot booting up: market and data feed → Python strategy engine on a VPS → Socket.IO relay on Render → Neon Postgres and Cloudflare R2 → Next.js desk and Expo mobile app, with fills, trailing stops, P&L and telemetry feeding back into the engine" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-light.svg?v=2">
+  <img alt="Architecture of the intraday equity trading bot booting up: market and data feed → Python strategy engine on a VPS → Socket.IO relay on Render → Neon Postgres and Cloudflare R2 → Next.js desk and Expo mobile app, with fills, trailing stops, P&L and telemetry feeding back into the engine" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-dark.svg?v=2" width="100%">
 </picture>
 
 <p align="center"><sub>The diagram boots service by service, then streams packets end to end. It is the actual shape of my intraday equity trading platform: an acyclic single-mutator Python engine on an Ubuntu VPS, a real-time Socket.IO and Expo push relay on Render, a relational ledger in Neon PostgreSQL, session archives in Cloudflare R2, and two surfaces on top: a brutalist Next.js 16 desk on Vercel and a native Expo mobile alerts app.</sub></p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-book-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-book-light.svg">
-  <img alt="Book — the stack, by depth" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-book-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-book-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-book-light.svg?v=2">
+  <img alt="Book — the stack, by depth" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-book-dark.svg?v=2" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/orderbook-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/orderbook-light.svg">
-  <img alt="Tech stack drawn as an order book: Next.js, React, TypeScript, React Native, Tailwind on the bid side; Python/FastAPI, Node.js, PostgreSQL, MongoDB, pandas/NumPy on the ask side; AWS, GCP, Docker, GitHub Actions in the spread" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/orderbook-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/orderbook-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/orderbook-light.svg?v=2">
+  <img alt="Tech stack drawn as an order book: Next.js, React, TypeScript, React Native, Tailwind on the bid side; Python/FastAPI, Node.js, PostgreSQL, MongoDB, pandas/NumPy on the ask side; AWS, GCP, Docker, GitHub Actions in the spread" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/orderbook-dark.svg?v=2" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-tape-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-tape-light.svg">
-  <img alt="Tape — live activity" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-tape-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-tape-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-tape-light.svg?v=2">
+  <img alt="Tape — live activity" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-tape-dark.svg?v=2" width="100%">
 </picture>
 
 <picture>
@@ -105,9 +105,9 @@
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-execute-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-execute-light.svg">
-  <img alt="Execute — get in touch" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-execute-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-execute-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-execute-light.svg?v=2">
+  <img alt="Execute — get in touch" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-execute-dark.svg?v=2" width="100%">
 </picture>
 
 <table>
@@ -134,9 +134,9 @@
 </table>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/footer-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/footer-light.svg">
-  <img alt="Session close" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/footer-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/footer-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/footer-light.svg?v=2">
+  <img alt="Session close" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/footer-dark.svg?v=2" width="100%">
 </picture>
 
 <p align="center"><sub>Built by hand: every panel above is an SVG animated with SMIL, no JavaScript, no external fonts. The three live panels are regenerated from the GitHub API every six hours. Source in <a href="https://github.com/HimanshuJ16/HimanshuJ16/tree/main/scripts">scripts/</a>.</sub></p>
