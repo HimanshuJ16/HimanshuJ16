@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 34" width="900" height="34" role="img" aria-labelledby="t d">
+  <title id="t">Session close tape</title>
+  <desc id="d">A looping ticker tape with links and a sign-off.</desc>
+
+  <defs>
+    <linearGradient id="fade2" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#0B0E14" stop-opacity="1"/>
+      <stop offset="0.07" stop-color="#0B0E14" stop-opacity="0"/>
+      <stop offset="0.93" stop-color="#0B0E14" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0B0E14" stop-opacity="1"/>
+    </linearGradient>
+    <clipPath id="fclip"><rect x="0" y="0" width="900" height="34"/></clipPath>
+  </defs>
+  <rect width="900" height="34" rx="8" fill="#0B0E14"/>
+  <rect x="0.5" y="0.5" width="899" height="33" rx="8" fill="none" stroke="#1E2837"/>
+  <g clip-path="url(#fclip)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1683.6 0" dur="44.31s" repeatCount="indefinite"/>
+      <text x="0" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#E3B341" textLength="89.7" lengthAdjust="spacing" xml:space="preserve">SESSION CLOSE</text>
+      <text x="89.7" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="138" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#8B98A8" textLength="186.3" lengthAdjust="spacing" xml:space="preserve">thanks for reading the tape</text>
+      <text x="324.3" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="372.6" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#E6EDF3" textLength="124.2" lengthAdjust="spacing" xml:space="preserve">himanshujangir.com</text>
+      <text x="496.8" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="545.1" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#E6EDF3" textLength="151.8" lengthAdjust="spacing" xml:space="preserve">github.com/HimanshuJ16</text>
+      <text x="696.9" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="745.2" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#E6EDF3" textLength="220.8" lengthAdjust="spacing" xml:space="preserve">linkedin.com/in/himanshujangir16</text>
+      <text x="966" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="1014.3" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#E6EDF3" textLength="179.4" lengthAdjust="spacing" xml:space="preserve">himanshujangir16@gmail.com</text>
+      <text x="1193.7" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="1242" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#3FB950" textLength="241.5" lengthAdjust="spacing" xml:space="preserve">HJ16 ▲ open to interesting problems</text>
+      <text x="1483.5" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="1531.8" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#8B98A8" textLength="103.5" lengthAdjust="spacing" xml:space="preserve">New Delhi · IST</text>
+      <text x="1635.3" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="1683.6" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#E3B341" textLength="89.7" lengthAdjust="spacing" xml:space="preserve">SESSION CLOSE</text>
+      <text x="1773.3" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="1821.6" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#8B98A8" textLength="186.3" lengthAdjust="spacing" xml:space="preserve">thanks for reading the tape</text>
+      <text x="2007.9" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="2056.2" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#E6EDF3" textLength="124.2" lengthAdjust="spacing" xml:space="preserve">himanshujangir.com</text>
+      <text x="2180.4" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="2228.7" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#E6EDF3" textLength="151.8" lengthAdjust="spacing" xml:space="preserve">github.com/HimanshuJ16</text>
+      <text x="2380.5" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="2428.8" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#E6EDF3" textLength="220.8" lengthAdjust="spacing" xml:space="preserve">linkedin.com/in/himanshujangir16</text>
+      <text x="2649.6" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="2697.9" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#E6EDF3" textLength="179.4" lengthAdjust="spacing" xml:space="preserve">himanshujangir16@gmail.com</text>
+      <text x="2877.3" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="2925.6" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#3FB950" textLength="241.5" lengthAdjust="spacing" xml:space="preserve">HJ16 ▲ open to interesting problems</text>
+      <text x="3167.1" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+      <text x="3215.4" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#8B98A8" textLength="103.5" lengthAdjust="spacing" xml:space="preserve">New Delhi · IST</text>
+      <text x="3318.9" y="21" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11.5" font-weight="500" fill="#4B5766" textLength="48.3" lengthAdjust="spacing" xml:space="preserve">   │   </text>
+    </g>
+  </g>
+  <rect x="0" y="0" width="900" height="34" rx="8" fill="url(#fade2)"/>
+</svg>

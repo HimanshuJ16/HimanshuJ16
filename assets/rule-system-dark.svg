@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 26" width="900" height="26" role="img" aria-labelledby="t d">
+  <title id="t">▌ SYSTEM   how it's wired</title>
+  <desc id="d">Section divider styled as a terminal panel title.</desc>
+
+  <rect width="900" height="26" fill="#0B0E14"/>
+  <line x1="0" y1="13.0" x2="900" y2="13.0" stroke="#1E2837"/>
+  <rect x="0" y="0" width="212.5" height="26" fill="#0B0E14"/>
+  <text x="0" y="17" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" fill="#8B98A8" letter-spacing="1.8" xml:space="preserve">▌ SYSTEM   how it's wired</text>
+  <rect x="190.5" y="11.0" width="4" height="4" fill="#E3B341">
+    <animate attributeName="opacity" values="1;0.2;1" dur="2.6s" repeatCount="indefinite"/>
+  </rect>
+</svg>

@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 286" width="900" height="286" role="img" aria-labelledby="t d">
+  <title id="t">Order book: the stack</title>
+  <desc id="d">The tech stack drawn as a live order book: frontend on the bid side, backend on the ask side, infrastructure in the spread. Depth bars breathe continuously.</desc>
+
+  <rect width="900" height="286" rx="10" fill="#0B0E14"/>
+  <rect x="0.5" y="0.5" width="899" height="285" rx="10" fill="none" stroke="#1E2837"/>
+  <text x="18" y="27" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" fill="#8B98A8" letter-spacing="1.5" xml:space="preserve">ORDER BOOK · HJ16 · DEPTH</text>
+  <text x="882" y="27" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#4B5766" xml:space="preserve">what I build with, and how deep</text>
+  <line x1="0" y1="40.5" x2="900" y2="40.5" stroke="#1E2837"/>
+
+  <text x="22" y="58" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#3FB950" letter-spacing="1.2" xml:space="preserve">BID · FRONTEND</text>
+  <text x="430" y="58" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#4B5766" xml:space="preserve">depth</text>
+  <text x="470" y="58" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#4B5766" xml:space="preserve">depth</text>
+  <text x="878" y="58" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#F85149" letter-spacing="1.2" xml:space="preserve">BACKEND · ASK</text>
+
+  <g>
+    <rect x="92" y="68" width="350" height="24" rx="3" fill="#3FB950" fill-opacity="0.13">
+      <animate attributeName="width" values="350;301;350;325.5;350" dur="5.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+      <animate attributeName="x" values="92;141;92;116.5;92" dur="5.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </rect>
+    <rect x="440" y="68" width="2" height="24" fill="#3FB950"/>
+    <text x="22" y="84" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#E6EDF3" xml:space="preserve">Next.js</text>
+    <text x="430" y="84" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">App Router · RSC · edge</text>
+    <rect x="458" y="68" width="350" height="24" rx="3" fill="#F85149" fill-opacity="0.13">
+      <animate attributeName="width" values="350;315;350;294;350" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </rect>
+    <rect x="458" y="68" width="2" height="24" fill="#F85149"/>
+    <text x="470" y="84" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">async · pydantic · workers</text>
+    <text x="878" y="84" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#E6EDF3" xml:space="preserve">Python · FastAPI</text>
+  </g>
+  <g>
+    <rect x="120" y="98" width="322" height="24" rx="3" fill="#3FB950" fill-opacity="0.13">
+      <animate attributeName="width" values="322;276.92;322;299.46;322" dur="5.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+      <animate attributeName="x" values="120;165.08;120;142.54;120" dur="5.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </rect>
+    <rect x="440" y="98" width="2" height="24" fill="#3FB950"/>
+    <text x="22" y="114" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#E6EDF3" xml:space="preserve">React</text>
+    <text x="430" y="114" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">hooks · suspense · state</text>
+    <rect x="458" y="98" width="301" height="24" rx="3" fill="#F85149" fill-opacity="0.13">
+      <animate attributeName="width" values="301;270.9;301;252.84;301" dur="6.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </rect>
+    <rect x="458" y="98" width="2" height="24" fill="#F85149"/>
+    <text x="470" y="114" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">REST · websockets · queues</text>
+    <text x="878" y="114" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#E6EDF3" xml:space="preserve">Node.js</text>
+  </g>
+  <g>
+    <rect x="127" y="128" width="315" height="24" rx="3" fill="#3FB950" fill-opacity="0.13">
+      <animate attributeName="width" values="315;270.9;315;292.95;315" dur="6.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+      <animate attributeName="x" values="127;171.1;127;149.05;127" dur="6.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </rect>
+    <rect x="440" y="128" width="2" height="24" fill="#3FB950"/>
+    <text x="22" y="144" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#E6EDF3" xml:space="preserve">TypeScript</text>
+    <text x="430" y="144" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">strict · zod · tRPC</text>
+    <rect x="458" y="128" width="308" height="24" rx="3" fill="#F85149" fill-opacity="0.13">
+      <animate attributeName="width" values="308;277.2;308;258.72;308" dur="7.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </rect>
+    <rect x="458" y="128" width="2" height="24" fill="#F85149"/>
+    <text x="470" y="144" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">schema design · indexes</text>
+    <text x="878" y="144" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#E6EDF3" xml:space="preserve">PostgreSQL</text>
+  </g>
+  <g>
+    <rect x="225" y="158" width="217" height="24" rx="3" fill="#3FB950" fill-opacity="0.13">
+      <animate attributeName="width" values="217;186.62;217;201.81;217" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+      <animate attributeName="x" values="225;255.38;225;240.19;225" dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </rect>
+    <rect x="440" y="158" width="2" height="24" fill="#3FB950"/>
+    <text x="22" y="174" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#E6EDF3" xml:space="preserve">React Native</text>
+    <text x="430" y="174" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">Expo · iOS + Android</text>
+    <rect x="458" y="158" width="231" height="24" rx="3" fill="#F85149" fill-opacity="0.13">
+      <animate attributeName="width" values="231;207.9;231;194.04;231" dur="7.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </rect>
+    <rect x="458" y="158" width="2" height="24" fill="#F85149"/>
+    <text x="470" y="174" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">aggregation · sharding</text>
+    <text x="878" y="174" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#E6EDF3" xml:space="preserve">MongoDB</text>
+  </g>
+  <g>
+    <rect x="197" y="188" width="245" height="24" rx="3" fill="#3FB950" fill-opacity="0.13">
+      <animate attributeName="width" values="245;210.7;245;227.85;245" dur="7.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+      <animate attributeName="x" values="197;231.3;197;214.15;197" dur="7.6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </rect>
+    <rect x="440" y="188" width="2" height="24" fill="#3FB950"/>
+    <text x="22" y="204" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#E6EDF3" xml:space="preserve">Tailwind</text>
+    <text x="430" y="204" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">design systems</text>
+    <rect x="458" y="188" width="273" height="24" rx="3" fill="#F85149" fill-opacity="0.13">
+      <animate attributeName="width" values="273;245.7;273;229.32;273" dur="8.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
+    </rect>
+    <rect x="458" y="188" width="2" height="24" fill="#F85149"/>
+    <text x="470" y="204" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">backtests · options greeks</text>
+    <text x="878" y="204" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#E6EDF3" xml:space="preserve">pandas · NumPy</text>
+  </g>
+  <line x1="0" y1="222" x2="900" y2="222" stroke="#1E2837"/>
+  <text x="22" y="248" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#E3B341" letter-spacing="1.2" xml:space="preserve">SPREAD · INFRA</text>
+
+  <g>
+    <rect x="150" y="234" width="41.6" height="20" rx="10" fill="#E3B341" fill-opacity="0.12" stroke="#E3B341" stroke-opacity="0.45">
+      <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="4s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text x="170.8" y="248" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="600" fill="#E6EDF3" xml:space="preserve">AWS</text>
+  </g>
+  <g>
+    <rect x="201.6" y="234" width="41.6" height="20" rx="10" fill="#E3B341" fill-opacity="0.12" stroke="#E3B341" stroke-opacity="0.45">
+      <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="4s" begin="0.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="222.4" y="248" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="600" fill="#E6EDF3" xml:space="preserve">GCP</text>
+  </g>
+  <g>
+    <rect x="253.2" y="234" width="63.2" height="20" rx="10" fill="#E3B341" fill-opacity="0.12" stroke="#E3B341" stroke-opacity="0.45">
+      <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="4s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+    <text x="284.8" y="248" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="600" fill="#E6EDF3" xml:space="preserve">Docker</text>
+  </g>
+  <g>
+    <rect x="326.4" y="234" width="120.8" height="20" rx="10" fill="#E3B341" fill-opacity="0.12" stroke="#E3B341" stroke-opacity="0.45">
+      <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="4s" begin="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="386.8" y="248" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="600" fill="#E6EDF3" xml:space="preserve">GitHub Actions</text>
+  </g>
+  <g>
+    <rect x="457.2" y="234" width="63.2" height="20" rx="10" fill="#E3B341" fill-opacity="0.12" stroke="#E3B341" stroke-opacity="0.45">
+      <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="4s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="488.8" y="248" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="600" fill="#E6EDF3" xml:space="preserve">Vercel</text>
+  </g>
+  <g>
+    <rect x="530.4" y="234" width="56" height="20" rx="10" fill="#E3B341" fill-opacity="0.12" stroke="#E3B341" stroke-opacity="0.45">
+      <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="4s" begin="2.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="558.4" y="248" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="600" fill="#E6EDF3" xml:space="preserve">Nginx</text>
+  </g>
+  <g>
+    <rect x="596.4" y="234" width="56" height="20" rx="10" fill="#E3B341" fill-opacity="0.12" stroke="#E3B341" stroke-opacity="0.45">
+      <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="4s" begin="3s" repeatCount="indefinite"/>
+    </rect>
+    <text x="624.4" y="248" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="600" fill="#E6EDF3" xml:space="preserve">Redis</text>
+  </g>
+  <g>
+    <rect x="662.4" y="234" width="56" height="20" rx="10" fill="#E3B341" fill-opacity="0.12" stroke="#E3B341" stroke-opacity="0.45">
+      <animate attributeName="stroke-opacity" values="0.35;0.9;0.35" dur="4s" begin="3.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="690.4" y="248" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="600" fill="#E6EDF3" xml:space="preserve">Linux</text>
+  </g>
+</svg>
