@@ -4,7 +4,7 @@ Everything lives in the special profile repository **`HimanshuJ16/HimanshuJ16`**
 
 ## The concept
 
-The profile is a trading desk. The first screen is a terminal window: a ticker tape of the stack scrolls across the top, a shell session types out who you are, a candlestick chart labelled `HJ16` draws itself, and three "open positions" (HeatCodes, Algo-Trading-Skills, the options engine) fill in. Below it, the architecture of the NIFTY 50 options platform boots service by service with a live boot log, the tech stack is drawn as an order book (frontend bids, backend asks, infra in the spread), and a blotter of your real GitHub activity is regenerated every six hours as a list of fills. It fits because it is literally the thing you are building: a full-stack engineer whose side of the desk is quant finance, rendered in the visual language of the product itself rather than in badges.
+The profile is a trading desk. The first screen is a terminal window: a ticker tape of the stack scrolls across the top, a shell session types out who you are, a candlestick chart labelled `HJ16` draws itself, and three "open positions" (HeatCodes, Algo-Trading-Skills, live-stocks-equity-algo-bot) fill in. Below it, the architecture of the live equity trading bot boots service by service with a live boot log, the tech stack is drawn as an order book (frontend bids, backend asks, infra in the spread), and a blotter of your real GitHub activity is regenerated every six hours as a list of fills. It fits because it is literally the thing you are building: a full-stack engineer whose side of the desk is quant finance, rendered in the visual language of the product itself rather than in badges.
 
 ## Where each file goes
 

@@ -10,7 +10,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-light.svg">
-  <img alt="Himanshu Jangir — full-stack engineer, co-founder of HeatCodes, building a Python algo-trading platform for NIFTY 50 options" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-dark.svg" width="100%">
+  <img alt="Himanshu Jangir — full-stack engineer, co-founder of HeatCodes, running a Python intraday equity algo bot in production" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-dark.svg" width="100%">
 </picture>
 
 <p align="center">
@@ -38,9 +38,9 @@
     <td align="right"><code>LONG</code> <code>OPEN SOURCE</code></td>
   </tr>
   <tr>
-    <td><b>nifty50-options-engine</b></td>
-    <td>Python platform for NIFTY 50 options: market data ingestion, Greeks, backtesting, risk checks, execution. FastAPI in the middle, PostgreSQL underneath, a Next.js desk on top</td>
-    <td align="right"><code>OPEN</code> <code>BUILDING</code></td>
+    <td><b>live-stocks-equity-algo-bot</b></td>
+    <td>Intraday equity trading platform running in production: broker auto-login, pre-market news candidates, a single-mutator Python engine on a VPS, Socket.IO and Expo push relay, Neon Postgres ledger, R2 session archives, a Next.js 16 desk and an Expo mobile alerts app</td>
+    <td align="right"><code>LONG</code> <code>PROD READY</code></td>
   </tr>
   <tr>
     <td><b>HeatCodes</b></td>
@@ -63,10 +63,10 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-light.svg">
-  <img alt="Architecture of the options engine booting up: market feed → strategy engine → FastAPI → PostgreSQL → Next.js desk, on Docker/AWS/GCP" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-dark.svg" width="100%">
+  <img alt="Architecture of the intraday equity trading bot booting up: market and data feed → Python strategy engine on a VPS → Socket.IO relay on Render → Neon Postgres and Cloudflare R2 → Next.js desk and Expo mobile app, with fills, trailing stops, P&L and telemetry feeding back into the engine" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-dark.svg" width="100%">
 </picture>
 
-<p align="center"><sub>The diagram boots service by service, then streams packets end to end. It is the actual shape of the trading platform, and of most things I ship for clients: typed API in the middle, a relational store underneath, a React surface on top, containers everywhere.</sub></p>
+<p align="center"><sub>The diagram boots service by service, then streams packets end to end. It is the actual shape of my intraday equity trading platform: an acyclic single-mutator Python engine on an Ubuntu VPS, a real-time Socket.IO and Expo push relay on Render, a relational ledger in Neon PostgreSQL, session archives in Cloudflare R2, and two surfaces on top: a brutalist Next.js 16 desk on Vercel and a native Expo mobile alerts app.</sub></p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-book-dark.svg">
@@ -125,7 +125,7 @@
   </tr>
   <tr>
     <td><code>TALK</code><br><a href="https://linkedin.com/in/himanshujangir16">linkedin.com/in/himanshujangir16</a></td>
-    <td>you are into options, systems architecture or high-scale production software and want to compare notes</td>
+    <td>you are into intraday trading systems, systems architecture or high-scale production software and want to compare notes</td>
   </tr>
   <tr>
     <td><code>FORK</code><br><a href="https://github.com/HimanshuJ16/Algo-Trading-Skills">HimanshuJ16/Algo-Trading-Skills</a></td>

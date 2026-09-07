@@ -151,7 +151,7 @@ def build_header(p: Palette) -> str:
     W, H = 900, 380
     s = svg_open(W, H, p, "Himanshu Jangir — full-stack engineer & quant builder",
                  "An animated trading-terminal style profile header: scrolling tape, a typed session, "
-                 "a self-drawing candlestick chart and open positions.")
+                 "a self-drawing candlestick chart and open positions: HeatCodes, Algo-Trading-Skills and the live equity algo bot.")
     s += f"""
   <defs>
     <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
@@ -175,7 +175,7 @@ def build_header(p: Palette) -> str:
 """
     # ---- tape (top strip)
     items = [
-        ("NIFTY 50", p.text), ("OPTIONS ▲", p.up), ("NEXT.JS", p.text), ("REACT", p.text), ("TYPESCRIPT", p.text),
+        ("NSE EQUITIES", p.text), ("INTRADAY ▲", p.up), ("NEXT.JS", p.text), ("REACT", p.text), ("TYPESCRIPT", p.text),
         ("PYTHON", p.text), ("FASTAPI", p.text), ("NODE.JS", p.text), ("POSTGRESQL", p.text), ("MONGODB", p.text),
         ("AWS", p.text), ("GCP", p.text), ("DOCKER", p.text), ("REACT NATIVE", p.text),
         ("HEATCODES  IN · UK", p.accent), ("HJ16 ▲ SHIPPING", p.up),
@@ -203,8 +203,8 @@ def build_header(p: Palette) -> str:
         ("full-stack engineer · co-founder @ HeatCodes", 13, p.muted, 1.25, "500", False),
         ("B.Tech CS @ DSEU · class of 2027 · New Delhi", 13, p.muted, 1.15, "500", False),
         ("$ cat ~/now", 13, p.muted, 0.6, "400", False),
-        ("building a Python algo-trading platform", 13, p.data, 1.0, "500", False),
-        ("for NIFTY 50 options · 500+ trading skills OSS", 13, p.data, 1.0, "500", False),
+        ("running live-stocks-equity-algo-bot in prod", 13, p.data, 1.0, "500", False),
+        ("python · intraday equities · 500+ skills OSS", 13, p.data, 1.0, "500", False),
         ("$ ", 13, p.muted, 0.2, "400", True),
     ]
     y = 96
@@ -297,11 +297,11 @@ def build_header(p: Palette) -> str:
   <text x="{cx0 + cw}" y="{py}" text-anchor="end" font-family="{MONO}" font-size="10.5" fill="{p.dim}" xml:space="preserve">SIDE · SYMBOL · STATUS</text>
 """
     positions = [
-        ("LONG", "heatcodes", "clients in IN · UK", p.up),
-        ("LONG", "algo-trading-skills", "500+ skills · OSS", p.up),
-        ("OPEN", "nifty50-options-engine", "building · python", p.accent),
+        ("LONG", "heatcodes", "clients in IN · UK", p.up, p.muted),
+        ("LONG", "algo-trading-skills", "500+ skills · OSS", p.up, p.muted),
+        ("LONG", "live-stocks-equity-algo-bot", "PROD READY", p.up, p.up),
     ]
-    for i, (side, sym, status, col) in enumerate(positions):
+    for i, (side, sym, status, col, scol) in enumerate(positions):
         ry = py + 16 + i * 24
         b = 4.0 + i * 0.35
         s += f"""
@@ -310,7 +310,7 @@ def build_header(p: Palette) -> str:
     <rect x="{cx0}" y="{ry - 11}" width="38" height="16" rx="3" fill="{col}" fill-opacity="0.16"/>
     <text x="{cx0 + 19}" y="{ry + 1}" text-anchor="middle" font-family="{MONO}" font-size="9.5" font-weight="700" fill="{col}" xml:space="preserve">{side}</text>
     <text x="{cx0 + 48}" y="{ry + 1}" font-family="{MONO}" font-size="12" font-weight="600" fill="{p.text}" xml:space="preserve">{esc(sym)}</text>
-    <text x="{cx0 + cw}" y="{ry + 1}" text-anchor="end" font-family="{MONO}" font-size="10.5" fill="{p.muted}" xml:space="preserve">{esc(status)}</text>
+    <text x="{cx0 + cw}" y="{ry + 1}" text-anchor="end" font-family="{MONO}" font-size="10.5" font-weight="{'700' if scol != p.muted else '400'}" fill="{scol}" xml:space="preserve">{esc(status)}</text>
   </g>"""
     # ---- status bar (contact) across the bottom
     by = H - 30
@@ -356,7 +356,7 @@ def build_orderbook(p: Palette) -> str:
         ("Node.js", "REST · websockets · queues", 0.86),
         ("PostgreSQL", "schema design · indexes", 0.88),
         ("MongoDB", "aggregation · sharding", 0.66),
-        ("pandas · NumPy", "backtests · options greeks", 0.78),
+        ("pandas · NumPy", "backtests · signals · risk", 0.78),
     ]
     row_h = 30
     top = 68
@@ -421,10 +421,11 @@ def build_orderbook(p: Palette) -> str:
 
 # --------------------------------------------------------------------------- 3. pipeline (architecture boots up)
 def build_pipeline(p: Palette) -> str:
-    W, H = 900, 330
+    W, H = 900, 366
     s = svg_open(W, H, p, "System pipeline booting",
-                 "An architecture diagram that boots up service by service, then streams packets from the "
-                 "market feed through the strategy engine and API into the database and dashboard.")
+                 "The intraday equity trading platform boots service by service: broker session, news candidates, "
+                 "market feed, Neon Postgres and Cloudflare R2, the Socket.IO relay on Render, then the Next.js desk "
+                 "and Expo mobile app. Packets then stream end to end and telemetry feeds back into the engine.")
     s += f"""
   <defs>
     <filter id="nglow" x="-40%" y="-40%" width="180%" height="180%">
@@ -437,76 +438,84 @@ def build_pipeline(p: Palette) -> str:
   </defs>
   <rect width="{W}" height="{H}" rx="10" fill="{p.bg}"/>
   <rect x="0.5" y="0.5" width="{W - 1}" height="{H - 1}" rx="10" fill="none" stroke="{p.line}"/>
-  <text x="18" y="27" font-family="{MONO}" font-size="11" font-weight="700" fill="{p.muted}" letter-spacing="1.5" xml:space="preserve">SYSTEM · NIFTY50-OPTIONS-ENGINE · BOOT</text>
+  <text x="18" y="27" font-family="{MONO}" font-size="11" font-weight="700" fill="{p.muted}" letter-spacing="1.5" xml:space="preserve">SYSTEM · LIVE-STOCKS-EQUITY-ALGO-BOT · BOOT</text>
   <text x="{W - 18}" y="27" text-anchor="end" font-family="{MONO}" font-size="11" fill="{p.dim}" xml:space="preserve">how the pieces fit</text>
   <line x1="0" y1="40.5" x2="{W}" y2="40.5" stroke="{p.line}"/>
 """
-    # nodes: (id, title, subtitle, x, y, w, h, colour)
-    nw, nh = 138, 58
-    ny = 78
+    # nodes: (id, title line 1, title line 2, subtitle, x, colour)
+    nw, nh = 138, 74
+    ny = 68
     xs = [22, 200, 378, 556, 734]
     nodes = [
-        ("feed", "MARKET FEED", "NSE ticks · chain", xs[0], ny, p.data),
-        ("strat", "STRATEGY ENGINE", "Python · greeks", xs[1], ny, p.accent),
-        ("api", "FASTAPI", "async · risk · auth", xs[2], ny, p.up),
-        ("db", "POSTGRESQL", "orders · fills · P&L", xs[3], ny, p.up),
-        ("ui", "NEXT.JS DESK", "React · charts · RN", xs[4], ny, p.text),
+        ("feed",  "MARKET & DATA", "FEED",            "news · broker ticks",   xs[0], p.data),
+        ("strat", "STRATEGY ENGINE", "(PYTHON VPS)",  "single mutator loop", xs[1], p.accent),
+        ("relay", "REALTIME RELAY", "(RENDER NODE.JS)", "Socket.IO · push",    xs[2], p.up),
+        ("db",    "PERSISTENCE / R2", "(NEON POSTGRES)", "trades · curves",    xs[3], p.up),
+        ("ui",    "TRADING DESK &", "EXPO MOBILE APP", "Next 16 · Expo", xs[4], p.text),
     ]
-    # boot log (left/bottom)
-    log_x, log_y = 22, 196
+    # boot log (bottom)
     boot = [
-        (0.3, "mounting market feed", "feed"),
-        (1.1, "loading strategies (iv · delta-neutral · momentum)", "strat"),
-        (1.9, "starting fastapi workers ×4", "api"),
-        (2.7, "postgres · pool ready", "db"),
-        (3.5, "next.js desk hydrated", "ui"),
-        (4.3, "all systems nominal · streaming", None),
+        (0.10, "broker session authenticated (totp auto-login)", None),
+        (0.85, "news pre-market candidates scraped (leverage >= 5x)", "strat"),
+        (1.40, "mounting market feed & warm-up candle aggregators", "feed"),
+        (2.15, "neon postgres connected · cloudflare r2 session bucket primed", "db"),
+        (2.90, "socket.io relay handshake verified (render) · expo push ready", "relay"),
+        (3.65, "next.js brutalist desk hydrated · expo mobile client connected", "ui"),
+        (4.30, "all systems nominal · awaiting 09:21 volume promotion pass", "live"),
     ]
     boot_time = {b[2]: b[0] for b in boot if b[2]}
-    # edges as paths (so packets can follow them)
+    ymid = ny + nh / 2
     edges = []
     for i in range(len(nodes) - 1):
-        x1 = nodes[i][3] + nw
-        x2 = nodes[i + 1][3]
-        y = ny + nh / 2
-        edges.append((f"e{i}", f"M{x1},{y} L{x2},{y}", boot_time[nodes[i + 1][0]]))
-    # feedback edge: api -> strat (fills / risk) drawn beneath
-    fb_y = ny + nh + 26
-    edges_fb = (f"M{xs[2] + nw / 2},{ny + nh} L{xs[2] + nw / 2},{fb_y} L{xs[1] + nw / 2},{fb_y} L{xs[1] + nw / 2},{ny + nh}")
-    # draw edges
+        x1 = nodes[i][4] + nw
+        x2 = nodes[i + 1][4]
+        t = max(boot_time[nodes[i][0]], boot_time[nodes[i + 1][0]])
+        edges.append((f"e{i}", f"M{x1},{ymid} L{x2},{ymid}", t))
+    # telemetry bus: desk and relay drop down to a bus that feeds back into the engine
+    fb_y = ny + nh + 24
+    cx_strat = xs[1] + nw / 2
+    cx_relay = xs[2] + nw / 2
+    cx_ui = xs[4] + nw / 2
+    bus = f"M{cx_ui},{ny + nh} L{cx_ui},{fb_y} L{cx_strat},{fb_y} L{cx_strat},{ny + nh}"
+    drop = f"M{cx_relay},{ny + nh} L{cx_relay},{fb_y}"
     for eid, d, t in edges:
         s += f"""
   <path id="{eid}" d="{d}" fill="none" stroke="{p.line}" stroke-width="1.5" marker-end="url(#arr)" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="{fmt(t - 0.25)}s" dur="0.4s" fill="freeze"/>
+    <animate attributeName="opacity" from="0" to="1" begin="{fmt(t - 0.2)}s" dur="0.4s" fill="freeze"/>
   </path>
   <path d="{d}" fill="none" stroke="{p.data}" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 8" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="4.3s" dur="0.8s" fill="freeze"/>
     <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" begin="4.3s" repeatCount="indefinite"/>
   </path>"""
     s += f"""
-  <path id="efb" d="{edges_fb}" fill="none" stroke="{p.line}" stroke-width="1.2" stroke-dasharray="3 4" marker-end="url(#arr)" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.5s" fill="freeze"/>
+  <path id="efb" d="{bus}" fill="none" stroke="{p.line}" stroke-width="1.2" stroke-dasharray="3 4" marker-end="url(#arr)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.7s" dur="0.5s" fill="freeze"/>
   </path>
-  <text x="{fmt((xs[1] + xs[2]) / 2 + nw / 2)}" y="{fb_y - 5}" text-anchor="middle" font-family="{MONO}" font-size="9.5" fill="{p.dim}" opacity="0" xml:space="preserve">fills · risk · pnl
-    <animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.5s" fill="freeze"/>
+  <path d="{drop}" fill="none" stroke="{p.line}" stroke-width="1.2" stroke-dasharray="3 4" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.7s" dur="0.5s" fill="freeze"/>
+  </path>
+  <rect x="{fmt((cx_strat + cx_ui) / 2 - 128)}" y="{fb_y - 8}" width="256" height="16" fill="{p.bg}" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.9s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="{fmt((cx_strat + cx_ui) / 2)}" y="{fb_y + 4}" text-anchor="middle" font-family="{MONO}" font-size="9.5" fill="{p.dim}" opacity="0" xml:space="preserve">fills · trailing stops · p&amp;l · telemetry
+    <animate attributeName="opacity" from="0" to="1" begin="3.9s" dur="0.5s" fill="freeze"/>
   </text>"""
-    # nodes
-    for nid, title, sub, x, y, col in nodes:
+    for nid, t1, t2, sub, x, col in nodes:
         t = boot_time[nid]
         s += f"""
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="{fmt(t)}s" dur="0.45s" fill="freeze"/>
-    <rect x="{x}" y="{y}" width="{nw}" height="{nh}" rx="8" fill="{col}" fill-opacity="0.16" filter="url(#nglow)">
+    <rect x="{x}" y="{ny}" width="{nw}" height="{nh}" rx="8" fill="{col}" fill-opacity="0.16" filter="url(#nglow)">
       <animate attributeName="fill-opacity" values="0.16;0.32;0.16" dur="3.2s" begin="{fmt(t + 0.4)}s" repeatCount="indefinite"/>
     </rect>
-    <rect x="{x}" y="{y}" width="{nw}" height="{nh}" rx="8" fill="{p.panel}" stroke="{col}" stroke-opacity="0.75"/>
-    <circle cx="{x + 14}" cy="{y + 16}" r="3" fill="{col}">
+    <rect x="{x}" y="{ny}" width="{nw}" height="{nh}" rx="8" fill="{p.panel}" stroke="{col}" stroke-opacity="0.75"/>
+    <circle cx="{x + 14}" cy="{ny + 17}" r="3" fill="{col}">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="{fmt(t + 0.4)}s" repeatCount="indefinite"/>
     </circle>
-    <text x="{x + 24}" y="{y + 20}" font-family="{MONO}" font-size="11" font-weight="700" fill="{p.text}" xml:space="preserve">{esc(title)}</text>
-    <text x="{x + 12}" y="{y + 42}" font-family="{MONO}" font-size="9.5" fill="{p.muted}" xml:space="preserve">{esc(sub)}</text>
+    <text x="{x + 24}" y="{ny + 21}" font-family="{MONO}" font-size="10.5" font-weight="700" fill="{p.text}" xml:space="preserve">{esc(t1)}</text>
+    <text x="{x + 24}" y="{ny + 35}" font-family="{MONO}" font-size="10.5" font-weight="700" fill="{p.text}" xml:space="preserve">{esc(t2)}</text>
+    <text x="{x + 12}" y="{ny + 58}" font-family="{MONO}" font-size="9.5" fill="{p.muted}" xml:space="preserve">{esc(sub)}</text>
   </g>"""
-    # packets along edges (after boot)
     for i, (eid, d, t) in enumerate(edges):
         for k in range(2):
             s += f"""
@@ -517,29 +526,31 @@ def build_pipeline(p: Palette) -> str:
     s += f"""
   <circle r="2.5" fill="{p.accent}" opacity="0">
     <set attributeName="opacity" to="1" begin="5.2s"/>
-    <animateMotion dur="3s" begin="5.2s" repeatCount="indefinite"><mpath xlink:href="#efb"/></animateMotion>
+    <animateMotion dur="4s" begin="5.2s" repeatCount="indefinite"><mpath xlink:href="#efb"/></animateMotion>
   </circle>"""
-    # infra rail
-    ry = 180
+    # runtime rail
+    ry = fb_y + 22
+    rail = "Ubuntu 24.04 VPS · systemd · Render · Vercel Edge · Neon Serverless · Cloudflare R2 · Expo EAS · Broker API"
     s += f"""
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.6s" fill="freeze"/>
     <rect x="22" y="{ry}" width="{W - 44}" height="26" rx="6" fill="{p.panel}" stroke="{p.line}"/>
     <text x="36" y="{ry + 17}" font-family="{MONO}" font-size="10" font-weight="700" fill="{p.muted}" letter-spacing="1.2" xml:space="preserve">RUNTIME</text>
-    <text x="118" y="{ry + 17}" font-family="{MONO}" font-size="10.5" fill="{p.text}" xml:space="preserve">Docker  ·  AWS (EC2 · RDS · S3)  ·  GCP  ·  GitHub Actions CI/CD  ·  Nginx  ·  Vercel edge</text>
+    <text x="118" y="{ry + 17}" font-family="{MONO}" font-size="10.5" fill="{p.text}" xml:space="preserve">{esc(rail)}</text>
     <rect x="22" y="{ry}" width="120" height="26" rx="6" fill="{p.data}" fill-opacity="0.12">
       <animate attributeName="x" from="22" to="{W - 22 - 120}" dur="9s" begin="0.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1"/>
     </rect>
   </g>"""
     # boot log
-    ly = 232
+    ly = ry + 52
     s += f"""
   <line x1="0" y1="{ly - 16}" x2="{W}" y2="{ly - 16}" stroke="{p.line}"/>
   <text x="22" y="{ly}" font-family="{MONO}" font-size="10" font-weight="700" fill="{p.muted}" letter-spacing="1.2" xml:space="preserve">BOOT LOG</text>"""
     for i, (t, msg, nid) in enumerate(boot):
         yy = ly + 18 + i * 14
-        ok_col = p.up if nid else p.accent
-        tag = "  OK " if nid else "LIVE "
+        live = nid == "live"
+        ok_col = p.accent if live else p.up
+        tag = "LIVE " if live else "  OK "
         s += f"""
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="{fmt(t)}s" dur="0.2s" fill="freeze"/>
