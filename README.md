@@ -139,4 +139,4 @@
   <img alt="Session close" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/footer-dark.svg" width="100%">
 </picture>
 
-<p align="center"><sub>Built by hand: every panel above is an SVG animated with SMIL, no JavaScript, no external fonts. The three live panels are regenerated from the GitHub API every six hours. Source in <a href="https://github.com/HimanshuJ16/HimanshuJ16/tree/main/scripts">scripts/</a>.</sub></p>
+<p align="center"><sub>Built by hand: every panel above is an SVG animated with SMIL, no JavaScript, no external fonts. The three live panels are regenerated from the GitHub API every six hours.</sub></p>
