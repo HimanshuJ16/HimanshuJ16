@@ -151,7 +151,7 @@ def build_header(p: Palette) -> str:
     W, H = 900, 380
     s = svg_open(W, H, p, "Himanshu Jangir — full-stack engineer & quant builder",
                  "An animated trading-terminal style profile header: scrolling tape, a typed session, "
-                 "a self-drawing candlestick chart and open positions.")
+                 "a self-drawing candlestick chart and open positions: HeatCodes, Algo-Trading-Skills and the live equity algo bot.")
     s += f"""
   <defs>
     <linearGradient id="fade" x1="0" x2="1" y1="0" y2="0">
@@ -175,7 +175,7 @@ def build_header(p: Palette) -> str:
 """
     # ---- tape (top strip)
     items = [
-        ("NIFTY 50", p.text), ("OPTIONS ▲", p.up), ("NEXT.JS", p.text), ("REACT", p.text), ("TYPESCRIPT", p.text),
+        ("NSE EQUITIES", p.text), ("INTRADAY ▲", p.up), ("NEXT.JS", p.text), ("REACT", p.text), ("TYPESCRIPT", p.text),
         ("PYTHON", p.text), ("FASTAPI", p.text), ("NODE.JS", p.text), ("POSTGRESQL", p.text), ("MONGODB", p.text),
         ("AWS", p.text), ("GCP", p.text), ("DOCKER", p.text), ("REACT NATIVE", p.text),
         ("HEATCODES  IN · UK", p.accent), ("HJ16 ▲ SHIPPING", p.up),
@@ -203,8 +203,8 @@ def build_header(p: Palette) -> str:
         ("full-stack engineer · co-founder @ HeatCodes", 13, p.muted, 1.25, "500", False),
         ("B.Tech CS @ DSEU · class of 2027 · New Delhi", 13, p.muted, 1.15, "500", False),
         ("$ cat ~/now", 13, p.muted, 0.6, "400", False),
-        ("building a Python algo-trading platform", 13, p.data, 1.0, "500", False),
-        ("for NIFTY 50 options · 500+ trading skills OSS", 13, p.data, 1.0, "500", False),
+        ("running live-stocks-equity-algo-bot in prod", 13, p.data, 1.0, "500", False),
+        ("python · intraday equities · 500+ skills OSS", 13, p.data, 1.0, "500", False),
         ("$ ", 13, p.muted, 0.2, "400", True),
     ]
     y = 96
@@ -297,11 +297,11 @@ def build_header(p: Palette) -> str:
   <text x="{cx0 + cw}" y="{py}" text-anchor="end" font-family="{MONO}" font-size="10.5" fill="{p.dim}" xml:space="preserve">SIDE · SYMBOL · STATUS</text>
 """
     positions = [
-        ("LONG", "heatcodes", "clients in IN · UK", p.up),
-        ("LONG", "algo-trading-skills", "500+ skills · OSS", p.up),
-        ("OPEN", "nifty50-options-engine", "building · python", p.accent),
+        ("LONG", "heatcodes", "clients in IN · UK", p.up, p.muted),
+        ("LONG", "algo-trading-skills", "500+ skills · OSS", p.up, p.muted),
+        ("LONG", "live-stocks-equity-algo-bot", "PROD READY", p.up, p.up),
     ]
-    for i, (side, sym, status, col) in enumerate(positions):
+    for i, (side, sym, status, col, scol) in enumerate(positions):
         ry = py + 16 + i * 24
         b = 4.0 + i * 0.35
         s += f"""
@@ -310,7 +310,7 @@ def build_header(p: Palette) -> str:
     <rect x="{cx0}" y="{ry - 11}" width="38" height="16" rx="3" fill="{col}" fill-opacity="0.16"/>
     <text x="{cx0 + 19}" y="{ry + 1}" text-anchor="middle" font-family="{MONO}" font-size="9.5" font-weight="700" fill="{col}" xml:space="preserve">{side}</text>
     <text x="{cx0 + 48}" y="{ry + 1}" font-family="{MONO}" font-size="12" font-weight="600" fill="{p.text}" xml:space="preserve">{esc(sym)}</text>
-    <text x="{cx0 + cw}" y="{ry + 1}" text-anchor="end" font-family="{MONO}" font-size="10.5" fill="{p.muted}" xml:space="preserve">{esc(status)}</text>
+    <text x="{cx0 + cw}" y="{ry + 1}" text-anchor="end" font-family="{MONO}" font-size="10.5" font-weight="{'700' if scol != p.muted else '400'}" fill="{scol}" xml:space="preserve">{esc(status)}</text>
   </g>"""
     # ---- status bar (contact) across the bottom
     by = H - 30
@@ -356,7 +356,7 @@ def build_orderbook(p: Palette) -> str:
         ("Node.js", "REST · websockets · queues", 0.86),
         ("PostgreSQL", "schema design · indexes", 0.88),
         ("MongoDB", "aggregation · sharding", 0.66),
-        ("pandas · NumPy", "backtests · options greeks", 0.78),
+        ("pandas · NumPy", "backtests · signals · risk", 0.78),
     ]
     row_h = 30
     top = 68

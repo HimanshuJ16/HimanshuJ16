@@ -85,7 +85,7 @@
       <animate attributeName="width" values="273;245.7;273;229.32;273" dur="8.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/>
     </rect>
     <rect x="458" y="188" width="2" height="24" fill="#CF222E"/>
-    <text x="470" y="204" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#57606A" xml:space="preserve">backtests · options greeks</text>
+    <text x="470" y="204" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#57606A" xml:space="preserve">backtests · signals · risk</text>
     <text x="878" y="204" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#1F2328" xml:space="preserve">pandas · NumPy</text>
   </g>
   <line x1="0" y1="222" x2="900" y2="222" stroke="#D0D7DE"/>

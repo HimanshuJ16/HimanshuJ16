@@ -10,7 +10,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-light.svg">
-  <img alt="Himanshu Jangir — full-stack engineer, co-founder of HeatCodes, building a Python algo-trading platform for NIFTY 50 options" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-dark.svg" width="100%">
+  <img alt="Himanshu Jangir — full-stack engineer, co-founder of HeatCodes, running a Python intraday equity algo bot in production" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/header-dark.svg" width="100%">
 </picture>
 
 <p align="center">
@@ -38,9 +38,9 @@
     <td align="right"><code>LONG</code> <code>OPEN SOURCE</code></td>
   </tr>
   <tr>
-    <td><b>nifty50-options-engine</b></td>
-    <td>Python platform for NIFTY 50 options: market data ingestion, Greeks, backtesting, risk checks, execution. FastAPI in the middle, PostgreSQL underneath, a Next.js desk on top</td>
-    <td align="right"><code>OPEN</code> <code>BUILDING</code></td>
+    <td><b>live-stocks-equity-algo-bot</b></td>
+    <td>Intraday equity trading platform running in production: broker auto-login, pre-market news candidates, a single-mutator Python engine on a VPS, Socket.IO and Expo push relay, Neon Postgres ledger, R2 session archives, a Next.js 16 desk and an Expo mobile alerts app</td>
+    <td align="right"><code>LONG</code> <code>PROD READY</code></td>
   </tr>
   <tr>
     <td><b>HeatCodes</b></td>
@@ -125,7 +125,7 @@
   </tr>
   <tr>
     <td><code>TALK</code><br><a href="https://linkedin.com/in/himanshujangir16">linkedin.com/in/himanshujangir16</a></td>
-    <td>you are into options, systems architecture or high-scale production software and want to compare notes</td>
+    <td>you are into intraday trading systems, systems architecture or high-scale production software and want to compare notes</td>
   </tr>
   <tr>
     <td><code>FORK</code><br><a href="https://github.com/HimanshuJ16/Algo-Trading-Skills">HimanshuJ16/Algo-Trading-Skills</a></td>
