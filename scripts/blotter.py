@@ -58,8 +58,11 @@ def rel(ts: str, now: dt.datetime) -> str:
     return f"{s // 86400}d"
 
 
-def to_fill(ev: dict, now: dt.datetime):
-    """Map one GitHub event to (side, symbol, description, qty, when, colour_key)."""
+def to_fill(ev: dict, now: dt.datetime, fetch):
+    """Map one GitHub event to (side, symbol, description, qty, when, colour_key).
+
+    fetch(url) returns parsed JSON or None; it is used to fill in fields the
+    events API leaves out (commit messages, PR titles and line counts)."""
     kind = ev.get("type")
     repo = ev.get("repo", {}).get("name", "?").split("/")[-1]
     pl = ev.get("payload", {})
@@ -67,15 +70,26 @@ def to_fill(ev: dict, now: dt.datetime):
     if kind == "PushEvent":
         n = len(pl.get("commits", [])) or pl.get("size", 0) or 1
         branch = pl.get("ref", "").split("/")[-1]
-        msg = (pl.get("commits") or [{}])[-1].get("message", "").splitlines()[0] if pl.get("commits") else ""
-        return ("BUY", repo, f"push · {branch} · {msg}"[:58], f"{n} commit{'s' if n != 1 else ''}", when, "up")
+        msg = ""
+        if pl.get("commits"):
+            msg = (pl["commits"][-1].get("message") or "").splitlines()[0] if pl["commits"][-1].get("message") else ""
+        if not msg and pl.get("head"):
+            # the events API often omits commit messages; look the head commit up directly
+            c = fetch(f"https://api.github.com/repos/{ev['repo']['name']}/commits/{pl['head']}")
+            if c:
+                msg = (c.get("commit", {}).get("message") or "").splitlines()[0]
+        return ("BUY", repo, clip(f"push · {branch} · {msg}".rstrip(" ·")), f"{n} commit{'s' if n != 1 else ''}", when, "up")
     if kind == "PullRequestEvent":
         act = pl.get("action")
         pr = pl.get("pull_request", {})
-        merged = pr.get("merged")
+        if pr.get("number") and not pr.get("title"):
+            full = fetch(f"https://api.github.com/repos/{ev['repo']['name']}/pulls/{pr['number']}")
+            if full:
+                pr = full
+        merged = pr.get("merged") or (act == "closed" and pr.get("merged_at") is not None)
         side = "SELL" if (act == "closed" and merged) else ("BUY" if act == "opened" else "MKT")
         label = "merged" if merged else act
-        return (side, repo, f"pr #{pr.get('number', '?')} {label} · {pr.get('title', '')}"[:58],
+        return (side, repo, clip(f"pr #{pr.get('number', '?')} {label} · {pr.get('title') or ''}".rstrip(" ·")),
                 f"+{pr.get('additions', 0)}/-{pr.get('deletions', 0)}" if pr.get("additions") is not None else "", when,
                 "down" if side == "SELL" else "up" if side == "BUY" else "accent")
     if kind == "CreateEvent":
@@ -83,7 +97,7 @@ def to_fill(ev: dict, now: dt.datetime):
         return ("BUY", repo, f"created {rt} {pl.get('ref') or ''}".strip()[:58], "new", when, "up")
     if kind == "IssuesEvent":
         iss = pl.get("issue", {})
-        return ("MKT", repo, f"issue #{iss.get('number', '?')} {pl.get('action')} · {iss.get('title', '')}"[:58], "", when, "accent")
+        return ("MKT", repo, clip(f"issue #{iss.get('number', '?')} {pl.get('action')} · {iss.get('title', '')}"), "", when, "accent")
     if kind == "IssueCommentEvent":
         return ("MKT", repo, f"comment on #{pl.get('issue', {}).get('number', '?')}"[:58], "", when, "data")
     if kind == "ReleaseEvent":
@@ -95,6 +109,10 @@ def to_fill(ev: dict, now: dt.datetime):
     if kind == "PullRequestReviewEvent":
         return ("MKT", repo, f"reviewed pr #{pl.get('pull_request', {}).get('number', '?')}"[:58], "", when, "data")
     return None
+
+
+def clip(text: str, n: int = 58) -> str:
+    return text if len(text) <= n else text[: n - 1].rstrip() + "…"
 
 
 def render(theme: str, fills: list, stats: dict, stamp: str) -> str:
@@ -111,8 +129,8 @@ def render(theme: str, fills: list, stats: dict, stamp: str) -> str:
     # stats strip
     sx = 18
     for k, v in stats.items():
-        s += (f'  <text x="{sx}" y="58" font-family="{MONO}" font-size="10" fill="{p["dim"]}" xml:space="preserve">{esc(k)}</text>\n'
-              f'  <text x="{sx + len(k) * 6.2 + 6}" y="58" font-family="{MONO}" font-size="10.5" font-weight="700" fill="{p["text"]}" xml:space="preserve">{esc(str(v))}</text>\n')
+        s += (f'  <text x="{sx:.1f}" y="58" font-family="{MONO}" font-size="10" fill="{p["dim"]}" xml:space="preserve">{esc(k)}</text>\n'
+              f'  <text x="{sx + len(k) * 6.2 + 6:.1f}" y="58" font-family="{MONO}" font-size="10.5" font-weight="700" fill="{p["text"]}" xml:space="preserve">{esc(str(v))}</text>\n')
         sx += len(k) * 6.2 + len(str(v)) * 6.6 + 34
     s += f'  <text x="{W - 18}" y="58" text-anchor="end" font-family="{MONO}" font-size="10" fill="{p["dim"]}" xml:space="preserve">refreshed {esc(stamp)}</text>\n'
     s += f'  <line x1="0" y1="66.5" x2="{W}" y2="66.5" stroke="{p["line"]}"/>\n'
@@ -145,16 +163,24 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--user", default="HimanshuJ16")
     ap.add_argument("--out", default="dist")
-    ap.add_argument("--skills-repo", default="HimanshuJ16/Algo-Trading-Skills")
     a = ap.parse_args()
     token = os.environ.get("GITHUB_TOKEN")
     now = dt.datetime.now(dt.timezone.utc)
     fills, stats = [], {}
+
+    def fetch(url: str):
+        try:
+            return api(url, token)
+        except Exception as e:  # noqa: BLE001
+            print(f"lookup failed for {url}: {e}", file=sys.stderr)
+            return None
+
+    events = []
     try:
         events = api(f"https://api.github.com/users/{a.user}/events/public?per_page=100", token)
         seen = set()
         for ev in events:
-            f = to_fill(ev, now)
+            f = to_fill(ev, now, fetch)
             if not f:
                 continue
             key = (f[0], f[1], f[2])
@@ -166,17 +192,15 @@ def main() -> int:
                 break
     except (urllib.error.URLError, urllib.error.HTTPError, ValueError, KeyError) as e:
         print(f"events fetch failed: {e}", file=sys.stderr)
-    try:
-        u = api(f"https://api.github.com/users/{a.user}", token)
+    u = fetch(f"https://api.github.com/users/{a.user}")
+    if u:
         stats["repos"] = u.get("public_repos", 0)
-        stats["followers"] = u.get("followers", 0)
-    except Exception as e:  # noqa: BLE001
-        print(f"user fetch failed: {e}", file=sys.stderr)
-    try:
-        r = api(f"https://api.github.com/repos/{a.skills_repo}", token)
-        stats["skills-repo ★"] = r.get("stargazers_count", 0)
-    except Exception as e:  # noqa: BLE001
-        print(f"repo fetch failed: {e}", file=sys.stderr)
+    if events:
+        cutoff = now - dt.timedelta(days=30)
+        recent = [e for e in events
+                  if dt.datetime.strptime(e["created_at"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=dt.timezone.utc) >= cutoff]
+        stats["fills · 30d"] = len(recent)
+        stats["active repos · 30d"] = len({e["repo"]["name"] for e in recent})
     stamp = now.strftime("%d %b %Y %H:%M UTC")
     os.makedirs(a.out, exist_ok=True)
     for theme in PALETTES:
