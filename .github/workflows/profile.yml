@@ -1,0 +1,59 @@
+# Regenerates the dynamic panels of the profile README and publishes them to the
+# `output` branch, so `main` stays clean:
+#
+#   output/blotter-dark.svg, blotter-light.svg          <- scripts/blotter.py (recent activity)
+#   output/github-contribution-grid-snake*.svg          <- Platane/snk (contribution snake)
+#
+# The README embeds these via raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/output/...
+name: Refresh profile panels
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6 hours (off the top of the hour to dodge queueing)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/blotter.py"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-panels
+  cancel-in-progress: true
+
+jobs:
+  panels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render activity blotter
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/blotter.py --user "${{ github.repository_owner }}" --out dist
+
+      - name: Render contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_dots=#EBEDF0,#9BE9A8,#40C463,#30A14E,#216E39&color_snake=#E3B341
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_dots=#161B22,#0E4429,#006D32,#26A641,#39D353&color_snake=#E3B341
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh profile panels"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
