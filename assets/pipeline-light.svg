@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 330" width="900" height="330" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 366" width="900" height="366" role="img" aria-labelledby="t d">
   <title id="t">System pipeline booting</title>
-  <desc id="d">An architecture diagram that boots up service by service, then streams packets from the market feed through the strategy engine and API into the database and dashboard.</desc>
+  <desc id="d">The intraday equity trading platform boots service by service: broker session, news candidates, market feed, Neon Postgres and Cloudflare R2, the Socket.IO relay on Render, then the Next.js desk and Expo mobile app. Packets then stream end to end and telemetry feeds back into the engine.</desc>
 
   <defs>
     <filter id="nglow" x="-40%" y="-40%" width="180%" height="180%">
@@ -11,105 +11,116 @@
       <path d="M0,0 L8,4 L0,8 z" fill="#D0D7DE"/>
     </marker>
   </defs>
-  <rect width="900" height="330" rx="10" fill="#FFFFFF"/>
-  <rect x="0.5" y="0.5" width="899" height="329" rx="10" fill="none" stroke="#D0D7DE"/>
-  <text x="18" y="27" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" fill="#57606A" letter-spacing="1.5" xml:space="preserve">SYSTEM · NIFTY50-OPTIONS-ENGINE · BOOT</text>
+  <rect width="900" height="366" rx="10" fill="#FFFFFF"/>
+  <rect x="0.5" y="0.5" width="899" height="365" rx="10" fill="none" stroke="#D0D7DE"/>
+  <text x="18" y="27" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" fill="#57606A" letter-spacing="1.5" xml:space="preserve">SYSTEM · LIVE-STOCKS-EQUITY-ALGO-BOT · BOOT</text>
   <text x="882" y="27" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8C959F" xml:space="preserve">how the pieces fit</text>
   <line x1="0" y1="40.5" x2="900" y2="40.5" stroke="#D0D7DE"/>
 
-  <path id="e0" d="M160,107.0 L200,107.0" fill="none" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#arr)" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.4s" fill="freeze"/>
+  <path id="e0" d="M160,105.0 L200,105.0" fill="none" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#arr)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.2s" dur="0.4s" fill="freeze"/>
   </path>
-  <path d="M160,107.0 L200,107.0" fill="none" stroke="#0969DA" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 8" opacity="0">
+  <path d="M160,105.0 L200,105.0" fill="none" stroke="#0969DA" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 8" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="4.3s" dur="0.8s" fill="freeze"/>
     <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" begin="4.3s" repeatCount="indefinite"/>
   </path>
-  <path id="e1" d="M338,107.0 L378,107.0" fill="none" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#arr)" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="1.65s" dur="0.4s" fill="freeze"/>
+  <path id="e1" d="M338,105.0 L378,105.0" fill="none" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#arr)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.4s" fill="freeze"/>
   </path>
-  <path d="M338,107.0 L378,107.0" fill="none" stroke="#0969DA" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 8" opacity="0">
+  <path d="M338,105.0 L378,105.0" fill="none" stroke="#0969DA" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 8" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="4.3s" dur="0.8s" fill="freeze"/>
     <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" begin="4.3s" repeatCount="indefinite"/>
   </path>
-  <path id="e2" d="M516,107.0 L556,107.0" fill="none" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#arr)" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="2.45s" dur="0.4s" fill="freeze"/>
+  <path id="e2" d="M516,105.0 L556,105.0" fill="none" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#arr)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.4s" fill="freeze"/>
   </path>
-  <path d="M516,107.0 L556,107.0" fill="none" stroke="#0969DA" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 8" opacity="0">
+  <path d="M516,105.0 L556,105.0" fill="none" stroke="#0969DA" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 8" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="4.3s" dur="0.8s" fill="freeze"/>
     <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" begin="4.3s" repeatCount="indefinite"/>
   </path>
-  <path id="e3" d="M694,107.0 L734,107.0" fill="none" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#arr)" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="3.25s" dur="0.4s" fill="freeze"/>
+  <path id="e3" d="M694,105.0 L734,105.0" fill="none" stroke="#D0D7DE" stroke-width="1.5" marker-end="url(#arr)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.45s" dur="0.4s" fill="freeze"/>
   </path>
-  <path d="M694,107.0 L734,107.0" fill="none" stroke="#0969DA" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 8" opacity="0">
+  <path d="M694,105.0 L734,105.0" fill="none" stroke="#0969DA" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="4 8" opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="4.3s" dur="0.8s" fill="freeze"/>
     <animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" begin="4.3s" repeatCount="indefinite"/>
   </path>
-  <path id="efb" d="M447.0,136 L447.0,162 L269.0,162 L269.0,136" fill="none" stroke="#D0D7DE" stroke-width="1.2" stroke-dasharray="3 4" marker-end="url(#arr)" opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="2.6s" dur="0.5s" fill="freeze"/>
+  <path id="efb" d="M803.0,142 L803.0,166 L269.0,166 L269.0,142" fill="none" stroke="#D0D7DE" stroke-width="1.2" stroke-dasharray="3 4" marker-end="url(#arr)" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.7s" dur="0.5s" fill="freeze"/>
   </path>
-  <text x="358" y="157" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#8C959F" opacity="0" xml:space="preserve">fills · risk · pnl
-    <animate attributeName="opacity" from="0" to="1" begin="2.8s" dur="0.5s" fill="freeze"/>
+  <path d="M447.0,142 L447.0,166" fill="none" stroke="#D0D7DE" stroke-width="1.2" stroke-dasharray="3 4" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.7s" dur="0.5s" fill="freeze"/>
+  </path>
+  <rect x="408" y="158" width="256" height="16" fill="#FFFFFF" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.9s" dur="0.4s" fill="freeze"/>
+  </rect>
+  <text x="536" y="170" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#8C959F" opacity="0" xml:space="preserve">fills · trailing stops · p&amp;l · telemetry
+    <animate attributeName="opacity" from="0" to="1" begin="3.9s" dur="0.5s" fill="freeze"/>
   </text>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.45s" fill="freeze"/>
-    <rect x="22" y="78" width="138" height="58" rx="8" fill="#0969DA" fill-opacity="0.16" filter="url(#nglow)">
-      <animate attributeName="fill-opacity" values="0.16;0.32;0.16" dur="3.2s" begin="0.7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.45s" fill="freeze"/>
+    <rect x="22" y="68" width="138" height="74" rx="8" fill="#0969DA" fill-opacity="0.16" filter="url(#nglow)">
+      <animate attributeName="fill-opacity" values="0.16;0.32;0.16" dur="3.2s" begin="1.8s" repeatCount="indefinite"/>
     </rect>
-    <rect x="22" y="78" width="138" height="58" rx="8" fill="#F6F8FA" stroke="#0969DA" stroke-opacity="0.75"/>
-    <circle cx="36" cy="94" r="3" fill="#0969DA">
-      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="0.7s" repeatCount="indefinite"/>
+    <rect x="22" y="68" width="138" height="74" rx="8" fill="#F6F8FA" stroke="#0969DA" stroke-opacity="0.75"/>
+    <circle cx="36" cy="85" r="3" fill="#0969DA">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="46" y="98" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" fill="#1F2328" xml:space="preserve">MARKET FEED</text>
-    <text x="34" y="120" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#57606A" xml:space="preserve">NSE ticks · chain</text>
+    <text x="46" y="89" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="700" fill="#1F2328" xml:space="preserve">MARKET &amp; DATA</text>
+    <text x="46" y="103" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="700" fill="#1F2328" xml:space="preserve">FEED</text>
+    <text x="34" y="126" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#57606A" xml:space="preserve">news · broker ticks</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.45s" fill="freeze"/>
-    <rect x="200" y="78" width="138" height="58" rx="8" fill="#9A6700" fill-opacity="0.16" filter="url(#nglow)">
-      <animate attributeName="fill-opacity" values="0.16;0.32;0.16" dur="3.2s" begin="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.45s" fill="freeze"/>
+    <rect x="200" y="68" width="138" height="74" rx="8" fill="#9A6700" fill-opacity="0.16" filter="url(#nglow)">
+      <animate attributeName="fill-opacity" values="0.16;0.32;0.16" dur="3.2s" begin="1.25s" repeatCount="indefinite"/>
     </rect>
-    <rect x="200" y="78" width="138" height="58" rx="8" fill="#F6F8FA" stroke="#9A6700" stroke-opacity="0.75"/>
-    <circle cx="214" cy="94" r="3" fill="#9A6700">
-      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="1.5s" repeatCount="indefinite"/>
+    <rect x="200" y="68" width="138" height="74" rx="8" fill="#F6F8FA" stroke="#9A6700" stroke-opacity="0.75"/>
+    <circle cx="214" cy="85" r="3" fill="#9A6700">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="1.25s" repeatCount="indefinite"/>
     </circle>
-    <text x="224" y="98" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" fill="#1F2328" xml:space="preserve">STRATEGY ENGINE</text>
-    <text x="212" y="120" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#57606A" xml:space="preserve">Python · greeks</text>
+    <text x="224" y="89" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="700" fill="#1F2328" xml:space="preserve">STRATEGY ENGINE</text>
+    <text x="224" y="103" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="700" fill="#1F2328" xml:space="preserve">(PYTHON VPS)</text>
+    <text x="212" y="126" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#57606A" xml:space="preserve">single mutator loop</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.45s" fill="freeze"/>
-    <rect x="378" y="78" width="138" height="58" rx="8" fill="#1A7F37" fill-opacity="0.16" filter="url(#nglow)">
-      <animate attributeName="fill-opacity" values="0.16;0.32;0.16" dur="3.2s" begin="2.3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0" to="1" begin="2.9s" dur="0.45s" fill="freeze"/>
+    <rect x="378" y="68" width="138" height="74" rx="8" fill="#1A7F37" fill-opacity="0.16" filter="url(#nglow)">
+      <animate attributeName="fill-opacity" values="0.16;0.32;0.16" dur="3.2s" begin="3.3s" repeatCount="indefinite"/>
     </rect>
-    <rect x="378" y="78" width="138" height="58" rx="8" fill="#F6F8FA" stroke="#1A7F37" stroke-opacity="0.75"/>
-    <circle cx="392" cy="94" r="3" fill="#1A7F37">
-      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="2.3s" repeatCount="indefinite"/>
+    <rect x="378" y="68" width="138" height="74" rx="8" fill="#F6F8FA" stroke="#1A7F37" stroke-opacity="0.75"/>
+    <circle cx="392" cy="85" r="3" fill="#1A7F37">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="3.3s" repeatCount="indefinite"/>
     </circle>
-    <text x="402" y="98" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" fill="#1F2328" xml:space="preserve">FASTAPI</text>
-    <text x="390" y="120" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#57606A" xml:space="preserve">async · risk · auth</text>
+    <text x="402" y="89" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="700" fill="#1F2328" xml:space="preserve">REALTIME RELAY</text>
+    <text x="402" y="103" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="700" fill="#1F2328" xml:space="preserve">(RENDER NODE.JS)</text>
+    <text x="390" y="126" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#57606A" xml:space="preserve">Socket.IO · push</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.45s" fill="freeze"/>
-    <rect x="556" y="78" width="138" height="58" rx="8" fill="#1A7F37" fill-opacity="0.16" filter="url(#nglow)">
-      <animate attributeName="fill-opacity" values="0.16;0.32;0.16" dur="3.2s" begin="3.1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0" to="1" begin="2.15s" dur="0.45s" fill="freeze"/>
+    <rect x="556" y="68" width="138" height="74" rx="8" fill="#1A7F37" fill-opacity="0.16" filter="url(#nglow)">
+      <animate attributeName="fill-opacity" values="0.16;0.32;0.16" dur="3.2s" begin="2.55s" repeatCount="indefinite"/>
     </rect>
-    <rect x="556" y="78" width="138" height="58" rx="8" fill="#F6F8FA" stroke="#1A7F37" stroke-opacity="0.75"/>
-    <circle cx="570" cy="94" r="3" fill="#1A7F37">
-      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="3.1s" repeatCount="indefinite"/>
+    <rect x="556" y="68" width="138" height="74" rx="8" fill="#F6F8FA" stroke="#1A7F37" stroke-opacity="0.75"/>
+    <circle cx="570" cy="85" r="3" fill="#1A7F37">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="2.55s" repeatCount="indefinite"/>
     </circle>
-    <text x="580" y="98" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" fill="#1F2328" xml:space="preserve">POSTGRESQL</text>
-    <text x="568" y="120" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#57606A" xml:space="preserve">orders · fills · P&amp;L</text>
+    <text x="580" y="89" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="700" fill="#1F2328" xml:space="preserve">PERSISTENCE / R2</text>
+    <text x="580" y="103" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="700" fill="#1F2328" xml:space="preserve">(NEON POSTGRES)</text>
+    <text x="568" y="126" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#57606A" xml:space="preserve">trades · curves</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.45s" fill="freeze"/>
-    <rect x="734" y="78" width="138" height="58" rx="8" fill="#1F2328" fill-opacity="0.16" filter="url(#nglow)">
-      <animate attributeName="fill-opacity" values="0.16;0.32;0.16" dur="3.2s" begin="3.9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" from="0" to="1" begin="3.65s" dur="0.45s" fill="freeze"/>
+    <rect x="734" y="68" width="138" height="74" rx="8" fill="#1F2328" fill-opacity="0.16" filter="url(#nglow)">
+      <animate attributeName="fill-opacity" values="0.16;0.32;0.16" dur="3.2s" begin="4.05s" repeatCount="indefinite"/>
     </rect>
-    <rect x="734" y="78" width="138" height="58" rx="8" fill="#F6F8FA" stroke="#1F2328" stroke-opacity="0.75"/>
-    <circle cx="748" cy="94" r="3" fill="#1F2328">
-      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="3.9s" repeatCount="indefinite"/>
+    <rect x="734" y="68" width="138" height="74" rx="8" fill="#F6F8FA" stroke="#1F2328" stroke-opacity="0.75"/>
+    <circle cx="748" cy="85" r="3" fill="#1F2328">
+      <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" begin="4.05s" repeatCount="indefinite"/>
     </circle>
-    <text x="758" y="98" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" fill="#1F2328" xml:space="preserve">NEXT.JS DESK</text>
-    <text x="746" y="120" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#57606A" xml:space="preserve">React · charts · RN</text>
+    <text x="758" y="89" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="700" fill="#1F2328" xml:space="preserve">TRADING DESK &amp;</text>
+    <text x="758" y="103" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="700" fill="#1F2328" xml:space="preserve">EXPO MOBILE APP</text>
+    <text x="746" y="126" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#57606A" xml:space="preserve">Next 16 · Expo</text>
   </g>
   <circle r="3" fill="#0969DA" filter="url(#nglow)" opacity="0">
     <set attributeName="opacity" to="1" begin="4.6s"/>
@@ -145,53 +156,59 @@
   </circle>
   <circle r="2.5" fill="#9A6700" opacity="0">
     <set attributeName="opacity" to="1" begin="5.2s"/>
-    <animateMotion dur="3s" begin="5.2s" repeatCount="indefinite"><mpath xlink:href="#efb"/></animateMotion>
+    <animateMotion dur="4s" begin="5.2s" repeatCount="indefinite"><mpath xlink:href="#efb"/></animateMotion>
   </circle>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.6s" fill="freeze"/>
-    <rect x="22" y="180" width="856" height="26" rx="6" fill="#F6F8FA" stroke="#D0D7DE"/>
-    <text x="36" y="197" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#57606A" letter-spacing="1.2" xml:space="preserve">RUNTIME</text>
-    <text x="118" y="197" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#1F2328" xml:space="preserve">Docker  ·  AWS (EC2 · RDS · S3)  ·  GCP  ·  GitHub Actions CI/CD  ·  Nginx  ·  Vercel edge</text>
-    <rect x="22" y="180" width="120" height="26" rx="6" fill="#0969DA" fill-opacity="0.12">
+    <rect x="22" y="188" width="856" height="26" rx="6" fill="#F6F8FA" stroke="#D0D7DE"/>
+    <text x="36" y="205" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#57606A" letter-spacing="1.2" xml:space="preserve">RUNTIME</text>
+    <text x="118" y="205" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#1F2328" xml:space="preserve">Ubuntu 24.04 VPS · systemd · Render · Vercel Edge · Neon Serverless · Cloudflare R2 · Expo EAS · Broker API</text>
+    <rect x="22" y="188" width="120" height="26" rx="6" fill="#0969DA" fill-opacity="0.12">
       <animate attributeName="x" from="22" to="758" dur="9s" begin="0.5s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1"/>
     </rect>
   </g>
-  <line x1="0" y1="216" x2="900" y2="216" stroke="#D0D7DE"/>
-  <text x="22" y="232" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#57606A" letter-spacing="1.2" xml:space="preserve">BOOT LOG</text>
+  <line x1="0" y1="224" x2="900" y2="224" stroke="#D0D7DE"/>
+  <text x="22" y="240" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#57606A" letter-spacing="1.2" xml:space="preserve">BOOT LOG</text>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="0.3s" dur="0.2s" fill="freeze"/>
-    <text x="22" y="250" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#8C959F" xml:space="preserve">[ 0.30s]</text>
-    <text x="84" y="250" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#1F2328" xml:space="preserve">mounting market feed</text>
-    <text x="878" y="250" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#1A7F37" xml:space="preserve">[  OK ]</text>
+    <animate attributeName="opacity" from="0" to="1" begin="0.1s" dur="0.2s" fill="freeze"/>
+    <text x="22" y="258" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#8C959F" xml:space="preserve">[ 0.10s]</text>
+    <text x="84" y="258" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#1F2328" xml:space="preserve">broker session authenticated (totp auto-login)</text>
+    <text x="878" y="258" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#1A7F37" xml:space="preserve">[  OK ]</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="1.1s" dur="0.2s" fill="freeze"/>
-    <text x="22" y="264" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#8C959F" xml:space="preserve">[ 1.10s]</text>
-    <text x="84" y="264" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#1F2328" xml:space="preserve">loading strategies (iv · delta-neutral · momentum)</text>
-    <text x="878" y="264" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#1A7F37" xml:space="preserve">[  OK ]</text>
+    <animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.2s" fill="freeze"/>
+    <text x="22" y="272" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#8C959F" xml:space="preserve">[ 0.85s]</text>
+    <text x="84" y="272" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#1F2328" xml:space="preserve">news pre-market candidates scraped (leverage &gt;= 5x)</text>
+    <text x="878" y="272" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#1A7F37" xml:space="preserve">[  OK ]</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="1.9s" dur="0.2s" fill="freeze"/>
-    <text x="22" y="278" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#8C959F" xml:space="preserve">[ 1.90s]</text>
-    <text x="84" y="278" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#1F2328" xml:space="preserve">starting fastapi workers ×4</text>
-    <text x="878" y="278" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#1A7F37" xml:space="preserve">[  OK ]</text>
+    <animate attributeName="opacity" from="0" to="1" begin="1.4s" dur="0.2s" fill="freeze"/>
+    <text x="22" y="286" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#8C959F" xml:space="preserve">[ 1.40s]</text>
+    <text x="84" y="286" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#1F2328" xml:space="preserve">mounting market feed &amp; warm-up candle aggregators</text>
+    <text x="878" y="286" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#1A7F37" xml:space="preserve">[  OK ]</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="2.7s" dur="0.2s" fill="freeze"/>
-    <text x="22" y="292" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#8C959F" xml:space="preserve">[ 2.70s]</text>
-    <text x="84" y="292" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#1F2328" xml:space="preserve">postgres · pool ready</text>
-    <text x="878" y="292" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#1A7F37" xml:space="preserve">[  OK ]</text>
+    <animate attributeName="opacity" from="0" to="1" begin="2.15s" dur="0.2s" fill="freeze"/>
+    <text x="22" y="300" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#8C959F" xml:space="preserve">[ 2.15s]</text>
+    <text x="84" y="300" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#1F2328" xml:space="preserve">neon postgres connected · cloudflare r2 session bucket primed</text>
+    <text x="878" y="300" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#1A7F37" xml:space="preserve">[  OK ]</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" from="0" to="1" begin="3.5s" dur="0.2s" fill="freeze"/>
-    <text x="22" y="306" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#8C959F" xml:space="preserve">[ 3.50s]</text>
-    <text x="84" y="306" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#1F2328" xml:space="preserve">next.js desk hydrated</text>
-    <text x="878" y="306" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#1A7F37" xml:space="preserve">[  OK ]</text>
+    <animate attributeName="opacity" from="0" to="1" begin="2.9s" dur="0.2s" fill="freeze"/>
+    <text x="22" y="314" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#8C959F" xml:space="preserve">[ 2.90s]</text>
+    <text x="84" y="314" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#1F2328" xml:space="preserve">socket.io relay handshake verified (render) · expo push ready</text>
+    <text x="878" y="314" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#1A7F37" xml:space="preserve">[  OK ]</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="3.65s" dur="0.2s" fill="freeze"/>
+    <text x="22" y="328" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#8C959F" xml:space="preserve">[ 3.65s]</text>
+    <text x="84" y="328" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#1F2328" xml:space="preserve">next.js brutalist desk hydrated · expo mobile client connected</text>
+    <text x="878" y="328" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#1A7F37" xml:space="preserve">[  OK ]</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" from="0" to="1" begin="4.3s" dur="0.2s" fill="freeze"/>
-    <text x="22" y="320" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#8C959F" xml:space="preserve">[ 4.30s]</text>
-    <text x="84" y="320" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#1F2328" xml:space="preserve">all systems nominal · streaming</text>
-    <text x="878" y="320" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#9A6700" xml:space="preserve">[LIVE ]</text>
+    <text x="22" y="342" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#8C959F" xml:space="preserve">[ 4.30s]</text>
+    <text x="84" y="342" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#1F2328" xml:space="preserve">all systems nominal · awaiting 09:21 volume promotion pass</text>
+    <text x="878" y="342" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" font-weight="700" fill="#9A6700" xml:space="preserve">[LIVE ]</text>
   </g>
 </svg>

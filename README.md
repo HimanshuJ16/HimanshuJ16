@@ -63,10 +63,10 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-light.svg">
-  <img alt="Architecture of the options engine booting up: market feed → strategy engine → FastAPI → PostgreSQL → Next.js desk, on Docker/AWS/GCP" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-dark.svg" width="100%">
+  <img alt="Architecture of the intraday equity trading bot booting up: market and data feed → Python strategy engine on a VPS → Socket.IO relay on Render → Neon Postgres and Cloudflare R2 → Next.js desk and Expo mobile app, with fills, trailing stops, P&L and telemetry feeding back into the engine" src="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/pipeline-dark.svg" width="100%">
 </picture>
 
-<p align="center"><sub>The diagram boots service by service, then streams packets end to end. It is the actual shape of the trading platform, and of most things I ship for clients: typed API in the middle, a relational store underneath, a React surface on top, containers everywhere.</sub></p>
+<p align="center"><sub>The diagram boots service by service, then streams packets end to end. It is the actual shape of my intraday equity trading platform: an acyclic single-mutator Python engine on an Ubuntu VPS, a real-time Socket.IO and Expo push relay on Render, a relational ledger in Neon PostgreSQL, session archives in Cloudflare R2, and two surfaces on top: a brutalist Next.js 16 desk on Vercel and a native Expo mobile alerts app.</sub></p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/HimanshuJ16/HimanshuJ16/main/assets/rule-book-dark.svg">

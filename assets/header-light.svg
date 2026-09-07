@@ -163,7 +163,7 @@
     <set attributeName="opacity" to="1" begin="7.91s"/>
     <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" begin="8.11s" repeatCount="indefinite"/>
   </rect>
-  <line x1="548.5" y1="63" x2="548.5" y2="380" stroke="#D0D7DE"/>
+  <line x1="548.5" y1="63" x2="548.5" y2="350" stroke="#D0D7DE"/>
   <text x="566" y="76" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" fill="#1F2328" xml:space="preserve">HJ16</text>
   <text x="604" y="76" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8C959F" xml:space="preserve">· 1D · shipping since 2022</text>
   <text x="884" y="76" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="600" fill="#1A7F37" xml:space="preserve">▲ LONG</text>
@@ -276,5 +276,17 @@
     <text x="585" y="327" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="700" fill="#9A6700" xml:space="preserve">OPEN</text>
     <text x="614" y="327" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#1F2328" xml:space="preserve">nifty50-options-engine</text>
     <text x="884" y="327" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#57606A" xml:space="preserve">building · python</text>
+  </g>
+  <path d="M0,350 H900 V370 a10,10 0 0 1 -10,10 H10 a10,10 0 0 1 -10,-10 Z" fill="#F6F8FA"/>
+  <line x1="0" y1="350.5" x2="900" y2="350.5" stroke="#D0D7DE"/>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="5.6s" dur="0.8s" fill="freeze"/>
+    <circle cx="24" cy="365" r="3.5" fill="#1A7F37">
+      <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="34" y="369" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="600" fill="#1A7F37" xml:space="preserve">OPEN TO WORK</text>
+    <text x="150" y="369" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">web  himanshujangir.com</text>
+    <text x="370" y="369" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">mail  himanshujangir16@gmail.com</text>
+    <text x="884" y="369" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">in/himanshujangir16</text>
   </g>
 </svg>
