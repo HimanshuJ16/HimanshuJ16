@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 296" width="900" height="296" role="img" aria-label="Recent GitHub activity blotter">
+  <rect width="900" height="296" rx="10" fill="#0B0E14"/>
+  <rect x="0.5" y="0.5" width="899" height="295" rx="10" fill="none" stroke="#1E2837"/>
+  <text x="18" y="27" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" fill="#8B98A8" letter-spacing="1.5" xml:space="preserve">BLOTTER · FILLS · github.com/HimanshuJ16</text>
+  <circle cx="826" cy="23" r="3.5" fill="#3FB950"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <text x="836" y="27" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" fill="#3FB950" xml:space="preserve">LIVE</text>
+  <line x1="0" y1="40.5" x2="900" y2="40.5" stroke="#1E2837"/>
+  <text x="18.0" y="58" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#4B5766" xml:space="preserve">repos</text>
+  <text x="55.0" y="58" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="700" fill="#E6EDF3" xml:space="preserve">49</text>
+  <text x="96.2" y="58" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#4B5766" xml:space="preserve">fills · 30d</text>
+  <text x="170.4" y="58" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="700" fill="#E6EDF3" xml:space="preserve">88</text>
+  <text x="211.6" y="58" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#4B5766" xml:space="preserve">active repos · 30d</text>
+  <text x="329.2" y="58" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" font-weight="700" fill="#E6EDF3" xml:space="preserve">12</text>
+  <text x="882" y="58" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10" fill="#4B5766" xml:space="preserve">refreshed 12 Sep 2026 20:38 UTC</text>
+  <line x1="0" y1="66.5" x2="900" y2="66.5" stroke="#1E2837"/>
+  <text x="18" y="82" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#4B5766" letter-spacing="1" xml:space="preserve">SIDE</text>
+  <text x="70" y="82" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#4B5766" letter-spacing="1" xml:space="preserve">SYMBOL</text>
+  <text x="270" y="82" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#4B5766" letter-spacing="1" xml:space="preserve">FILL</text>
+  <text x="810" y="82" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#4B5766" letter-spacing="1" xml:space="preserve">QTY</text>
+  <text x="882" y="82" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#4B5766" letter-spacing="1" xml:space="preserve">AGE</text>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.20s" dur="0.35s" fill="freeze"/>
+    <rect x="12" y="94" width="876" height="22" rx="4" fill="#111722" opacity="1"/>
+    <rect x="18" y="98" width="40" height="14" rx="3" fill="#3FB950" fill-opacity="0.16"/>
+    <text x="38" y="109" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="700" fill="#3FB950" xml:space="preserve">BUY</text>
+    <text x="70" y="109" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#E6EDF3" xml:space="preserve">frank</text>
+    <text x="270" y="109" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">push · main · docs: new stars badge url so GitHub's image…</text>
+    <text x="810" y="109" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#E6EDF3" xml:space="preserve">1 commit</text>
+    <text x="882" y="109" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#4B5766" xml:space="preserve">10h</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.38s" dur="0.35s" fill="freeze"/>
+    <rect x="12" y="120" width="876" height="22" rx="4" fill="#111722" opacity="0"/>
+    <rect x="18" y="124" width="40" height="14" rx="3" fill="#3FB950" fill-opacity="0.16"/>
+    <text x="38" y="135" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="700" fill="#3FB950" xml:space="preserve">BUY</text>
+    <text x="70" y="135" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#E6EDF3" xml:space="preserve">frank</text>
+    <text x="270" y="135" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">push · main · feat: add runner and rescoring scripts for…</text>
+    <text x="810" y="135" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#E6EDF3" xml:space="preserve">1 commit</text>
+    <text x="882" y="135" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#4B5766" xml:space="preserve">4h</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.56s" dur="0.35s" fill="freeze"/>
+    <rect x="12" y="146" width="876" height="22" rx="4" fill="#111722" opacity="1"/>
+    <rect x="18" y="150" width="40" height="14" rx="3" fill="#3FB950" fill-opacity="0.16"/>
+    <text x="38" y="161" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="700" fill="#3FB950" xml:space="preserve">BUY</text>
+    <text x="70" y="161" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#E6EDF3" xml:space="preserve">frank</text>
+    <text x="270" y="161" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">push · main · feat(benchmarks): report the range across r…</text>
+    <text x="810" y="161" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#E6EDF3" xml:space="preserve">1 commit</text>
+    <text x="882" y="161" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#4B5766" xml:space="preserve">6h</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.74s" dur="0.35s" fill="freeze"/>
+    <rect x="12" y="172" width="876" height="22" rx="4" fill="#111722" opacity="0"/>
+    <rect x="18" y="176" width="40" height="14" rx="3" fill="#3FB950" fill-opacity="0.16"/>
+    <text x="38" y="187" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="700" fill="#3FB950" xml:space="preserve">BUY</text>
+    <text x="70" y="187" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#E6EDF3" xml:space="preserve">frank</text>
+    <text x="270" y="187" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">push · main · feat: add agentic and pushback benchmark su…</text>
+    <text x="810" y="187" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#E6EDF3" xml:space="preserve">1 commit</text>
+    <text x="882" y="187" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#4B5766" xml:space="preserve">6h</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.92s" dur="0.35s" fill="freeze"/>
+    <rect x="12" y="198" width="876" height="22" rx="4" fill="#111722" opacity="1"/>
+    <rect x="18" y="202" width="40" height="14" rx="3" fill="#E3B341" fill-opacity="0.16"/>
+    <text x="38" y="213" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="700" fill="#E3B341" xml:space="preserve">MKT</text>
+    <text x="70" y="213" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#E6EDF3" xml:space="preserve">frank</text>
+    <text x="270" y="213" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">starred</text>
+    <text x="810" y="213" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#E6EDF3" xml:space="preserve"></text>
+    <text x="882" y="213" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#4B5766" xml:space="preserve">10h</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.10s" dur="0.35s" fill="freeze"/>
+    <rect x="12" y="224" width="876" height="22" rx="4" fill="#111722" opacity="0"/>
+    <rect x="18" y="228" width="40" height="14" rx="3" fill="#3FB950" fill-opacity="0.16"/>
+    <text x="38" y="239" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="700" fill="#3FB950" xml:space="preserve">BUY</text>
+    <text x="70" y="239" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#E6EDF3" xml:space="preserve">frank</text>
+    <text x="270" y="239" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">push · main · docs: npm badge, package is published</text>
+    <text x="810" y="239" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#E6EDF3" xml:space="preserve">1 commit</text>
+    <text x="882" y="239" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#4B5766" xml:space="preserve">10h</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.28s" dur="0.35s" fill="freeze"/>
+    <rect x="12" y="250" width="876" height="22" rx="4" fill="#111722" opacity="1"/>
+    <rect x="18" y="254" width="40" height="14" rx="3" fill="#3FB950" fill-opacity="0.16"/>
+    <text x="38" y="265" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="700" fill="#3FB950" xml:space="preserve">BUY</text>
+    <text x="70" y="265" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#E6EDF3" xml:space="preserve">algo-trading-case-study</text>
+    <text x="270" y="265" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">push · main · feat: add root redirect to blog base path</text>
+    <text x="810" y="265" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#E6EDF3" xml:space="preserve">1 commit</text>
+    <text x="882" y="265" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#4B5766" xml:space="preserve">15h</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.46s" dur="0.35s" fill="freeze"/>
+    <rect x="12" y="276" width="876" height="22" rx="4" fill="#111722" opacity="0"/>
+    <rect x="18" y="280" width="40" height="14" rx="3" fill="#3FB950" fill-opacity="0.16"/>
+    <text x="38" y="291" text-anchor="middle" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" font-weight="700" fill="#3FB950" xml:space="preserve">BUY</text>
+    <text x="70" y="291" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#E6EDF3" xml:space="preserve">Algo-Trading-Skills</text>
+    <text x="270" y="291" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#8B98A8" xml:space="preserve">push · main · fix: update star history links and image so…</text>
+    <text x="810" y="291" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#E6EDF3" xml:space="preserve">1 commit</text>
+    <text x="882" y="291" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" fill="#4B5766" xml:space="preserve">18h</text>
+  </g>
+</svg>

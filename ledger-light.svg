@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 278" width="900" height="278" role="img" aria-label="Ledger: language allocation and repository totals">
+  <rect width="900" height="278" rx="10" fill="#FFFFFF"/>
+  <rect x="0.5" y="0.5" width="899" height="277" rx="10" fill="none" stroke="#D0D7DE"/>
+  <text x="18" y="27" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" fill="#57606A" letter-spacing="1.5" xml:space="preserve">LEDGER · ALLOCATION · by bytes, forks excluded</text>
+  <text x="882" y="27" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#8C959F" xml:space="preserve">refreshed 12 Sep 2026 20:38 UTC</text>
+  <line x1="0" y1="40.5" x2="900" y2="40.5" stroke="#D0D7DE"/>
+  <text x="22" y="60" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#8C959F" letter-spacing="1" xml:space="preserve">LANGUAGE</text>
+  <text x="150" y="60" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#8C959F" letter-spacing="1" xml:space="preserve">WEIGHT</text>
+  <text x="580" y="60" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#8C959F" letter-spacing="1" xml:space="preserve">SHARE</text>
+  <text x="22" y="84" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#1F2328" xml:space="preserve">Python</text>
+  <rect x="150" y="73" width="380" height="14" rx="3" fill="#F6F8FA"/>
+  <rect x="150" y="73" width="0" height="14" rx="3" fill="#0969DA" fill-opacity="1.00">
+    <animate attributeName="width" from="0" to="313.8" begin="0.20s" dur="0.9s" calcMode="spline" keySplines="0.2 0 0.2 1" fill="freeze"/>
+  </rect>
+  <text x="580" y="84" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">82.6%</text>
+  <text x="22" y="110" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#1F2328" xml:space="preserve">TypeScript</text>
+  <rect x="150" y="99" width="380" height="14" rx="3" fill="#F6F8FA"/>
+  <rect x="150" y="99" width="0" height="14" rx="3" fill="#0969DA" fill-opacity="0.89">
+    <animate attributeName="width" from="0" to="33.6" begin="0.32s" dur="0.9s" calcMode="spline" keySplines="0.2 0 0.2 1" fill="freeze"/>
+  </rect>
+  <text x="580" y="110" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">8.8%</text>
+  <text x="22" y="136" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#1F2328" xml:space="preserve">JavaScript</text>
+  <rect x="150" y="125" width="380" height="14" rx="3" fill="#F6F8FA"/>
+  <rect x="150" y="125" width="0" height="14" rx="3" fill="#0969DA" fill-opacity="0.78">
+    <animate attributeName="width" from="0" to="15.3" begin="0.44s" dur="0.9s" calcMode="spline" keySplines="0.2 0 0.2 1" fill="freeze"/>
+  </rect>
+  <text x="580" y="136" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">4.0%</text>
+  <text x="22" y="162" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#1F2328" xml:space="preserve">CSS</text>
+  <rect x="150" y="151" width="380" height="14" rx="3" fill="#F6F8FA"/>
+  <rect x="150" y="151" width="0" height="14" rx="3" fill="#0969DA" fill-opacity="0.67">
+    <animate attributeName="width" from="0" to="5.7" begin="0.56s" dur="0.9s" calcMode="spline" keySplines="0.2 0 0.2 1" fill="freeze"/>
+  </rect>
+  <text x="580" y="162" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">1.5%</text>
+  <text x="22" y="188" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#1F2328" xml:space="preserve">HTML</text>
+  <rect x="150" y="177" width="380" height="14" rx="3" fill="#F6F8FA"/>
+  <rect x="150" y="177" width="0" height="14" rx="3" fill="#0969DA" fill-opacity="0.56">
+    <animate attributeName="width" from="0" to="3.9" begin="0.68s" dur="0.9s" calcMode="spline" keySplines="0.2 0 0.2 1" fill="freeze"/>
+  </rect>
+  <text x="580" y="188" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">1.0%</text>
+  <text x="22" y="214" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#1F2328" xml:space="preserve">Java</text>
+  <rect x="150" y="203" width="380" height="14" rx="3" fill="#F6F8FA"/>
+  <rect x="150" y="203" width="0" height="14" rx="3" fill="#0969DA" fill-opacity="0.45">
+    <animate attributeName="width" from="0" to="3.6" begin="0.80s" dur="0.9s" calcMode="spline" keySplines="0.2 0 0.2 1" fill="freeze"/>
+  </rect>
+  <text x="580" y="214" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">1.0%</text>
+  <text x="22" y="240" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" font-weight="600" fill="#1F2328" xml:space="preserve">other</text>
+  <rect x="150" y="229" width="380" height="14" rx="3" fill="#F6F8FA"/>
+  <rect x="150" y="229" width="0" height="14" rx="3" fill="#0969DA" fill-opacity="0.34">
+    <animate attributeName="width" from="0" to="4.1" begin="0.92s" dur="0.9s" calcMode="spline" keySplines="0.2 0 0.2 1" fill="freeze"/>
+  </rect>
+  <text x="580" y="240" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">1.1%</text>
+  <line x1="616" y1="52" x2="616" y2="264" stroke="#D0D7DE"/>
+  <text x="640" y="60" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#8C959F" letter-spacing="1" xml:space="preserve">POSITION</text>
+  <text x="878" y="60" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="9.5" fill="#8C959F" letter-spacing="1" xml:space="preserve">SIZE</text>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.40s" dur="0.4s" fill="freeze"/>
+    <text x="640" y="84" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">public repos</text>
+    <text x="878" y="84" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#1F2328" xml:space="preserve">49</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.55s" dur="0.4s" fill="freeze"/>
+    <text x="640" y="110" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">original repos</text>
+    <text x="878" y="110" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#1F2328" xml:space="preserve">45</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.70s" dur="0.4s" fill="freeze"/>
+    <text x="640" y="136" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">stars received</text>
+    <text x="878" y="136" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#1F2328" xml:space="preserve">44</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.4s" fill="freeze"/>
+    <text x="640" y="162" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">forks of my work</text>
+    <text x="878" y="162" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#1F2328" xml:space="preserve">5</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.00s" dur="0.4s" fill="freeze"/>
+    <text x="640" y="188" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">languages in play</text>
+    <text x="878" y="188" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#1F2328" xml:space="preserve">9</text>
+  </g>
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.4s" fill="freeze"/>
+    <text x="640" y="214" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" fill="#57606A" xml:space="preserve">fills · last 30d</text>
+    <text x="878" y="214" text-anchor="end" font-family="'JetBrains Mono','Fira Code','SF Mono',SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="13" font-weight="700" fill="#1F2328" xml:space="preserve">88</text>
+  </g>
+</svg>
